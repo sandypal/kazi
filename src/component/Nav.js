@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import LOGO from "../assets/LOGO.png";
 function Nav () {
 	return <div>
-		 <header class="header_section">          
+		 <header className="header_section">          
          <div className="container">
             <div className="row">
                <nav className="navbar navbar-expand-lg navbar-light">
@@ -19,7 +19,7 @@ function Nav () {
                               Story
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="#">Plot summary</Link></li>
+                                 <li><Link className="dropdown-item" to="/about">Plot summary</Link></li>
                                  <li><Link className="dropdown-item" to="#">All chapters</Link></li>
                                  <li><Link className="dropdown-item" to="#">The Genesis</Link></li>
                               </ul>
