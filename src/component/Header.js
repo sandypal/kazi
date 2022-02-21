@@ -19,7 +19,7 @@ function Nav () {
                               Story
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="/about">Plot summary</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Plot summary</Link></li>
                                  <li><Link className="dropdown-item" to="#">All chapters</Link></li>
                                  <li><Link className="dropdown-item" to="#">The Genesis</Link></li>
                               </ul>
@@ -50,8 +50,8 @@ function Nav () {
                               Play
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="./login.html">Sign In</Link></li>
-                                 <li><Link className="dropdown-item" to="./sign-up.html">Sign Up</Link></li>
+                                 <li><Link className="dropdown-item" to="/login">Sign In</Link></li>
+                                 <li><Link className="dropdown-item" to="/signup">Sign Up</Link></li>
                                  </ul>
                            </li>
                            <li className="nav-item dropdown">
@@ -59,10 +59,10 @@ function Nav () {
                               Guide
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="./login.html">Getting started</Link></li>
-                                 <li><Link className="dropdown-item" to="./sign-up.html">How to play</Link></li>
+                                 <li><Link className="dropdown-item" to="/login">Getting started</Link></li>
+                                 <li><Link className="dropdown-item" to="/signup">How to play</Link></li>
                                  <li><Link className="dropdown-item" to="#">Card Anatomy</Link></li>
-                                 <li><Link className="dropdown-item" to="./sign-up.html">Marketplace</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Marketplace</Link></li>
                                  <li><Link className="dropdown-item" to="#">Cost and fees</Link></li>
                                  <li><Link className="dropdown-item" to="#">FAQ</Link></li>
                               </ul>
@@ -72,10 +72,10 @@ function Nav () {
                               More
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="./login.html">Leaderboard</Link></li>
-                                 <li><Link className="dropdown-item" to="./sign-up.html">Weapons’ list</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Leaderboard</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Weapons’ list</Link></li>
                                  <li><Link className="dropdown-item" to="#">Whitepaper</Link></li>
-                                 <li><Link className="dropdown-item" to="./sign-up.html">Buy NFTs</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Buy NFTs</Link></li>
                                  <li><Link className="dropdown-item" to="#">Meet the team</Link></li>
                               </ul>
                            </li>
@@ -84,18 +84,18 @@ function Nav () {
                               Tesseract Ltd.
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="./login.html">About</Link></li>
-                                 <li><Link className="dropdown-item" to="./sign-up.html">Visit</Link></li>
+                                 <li><Link className="dropdown-item" to="/about">About</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Visit</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item">
                               <Link className="nav-link" to="#">Connect Wallet </Link>
                            </li>
                            <li className="nav-item login_btn">
-                              <Link className="nav-link" to="./login.html">Sign In</Link>
+                              <Link className="nav-link" to="/login">Sign In</Link>
                            </li>
                            <li className="nav-item signup_btn">
-                              <Link className="nav-link" to="./sign-up.html">Sign Up</Link>
+                              <Link className="nav-link" to="/signup">Sign Up</Link>
                            </li>
                         </ul>
                         <div className="search_box">

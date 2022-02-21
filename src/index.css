@@ -20,4 +20,7 @@ code {
 }
 .join_section {
 	background-image: url("/src/assets/play_banner.png");
+  
+}
+.login_section {background-image: url("/src/assets/nw-thumb_1.jpg");
 }

@@ -8,7 +8,7 @@ import PlayTaxt from './PlayTaxt';
 import BuildArmy from './BuildArmy';
 import JoinCommunity from './JoinCommunity';
 import WorkWith from './WorkWith';
-function Content () {
+function Home () {
 	return <div>
         <HeroBanner/>
         <BannerText/>
@@ -21,4 +21,4 @@ function Content () {
         <WorkWith/>
         </div>
 }
-export default Content;
+export default Home;

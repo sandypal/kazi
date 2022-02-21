@@ -16,9 +16,9 @@ export default function BuildArmy() {
 
 	return ( <div>
 
-<section class="build_section mt-5 mb-5">
-         <div class="container">
-            <div class="row">
+<section className="build_section mt-5 mb-5">
+         <div className="container">
+            <div className="row">
                <div className="armybuild_slider">
                <Slider {...settings}>
                   <div className="col-md-12">
@@ -27,7 +27,7 @@ export default function BuildArmy() {
                         <div className="col-md-6">
                            <h2>BUILD AN ARMY</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                           <div class="build_army">
+                           <div className="build_army">
                   <ul>
                      <li><a href="#">LEARN MORE</a></li>
                      <li><a href="#">SEE CARDS</a></li>
@@ -42,7 +42,7 @@ export default function BuildArmy() {
                         <div className="col-md-6">
                            <h2>FIGHT BATTLES</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                           <div class="build_army">
+                           <div className="build_army">
                   <ul>
                      <li><a href="#">LEARN MORE</a></li>
                   </ul>
@@ -56,7 +56,7 @@ export default function BuildArmy() {
                         <div className="col-md-6">
                            <h2>EARN FROM WAR</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                           <div class="build_army">
+                           <div className="build_army">
                   <ul>
                      <li><a href="#">LEARN MORE</a></li>
                   </ul>

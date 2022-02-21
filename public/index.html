@@ -18,13 +18,29 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
-    <script src="./assets/js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <script src="./assets/js/custom.js"></script>
+
 
     <title>Kazi</title>
+    <script>
+        jQuery('.search-toggle').addClass('closed');
+
+        jQuery('.search-toggle .search-icon').click(function(e) {
+          if (jQuery('.search-toggle').hasClass('closed')) {
+            jQuery('.search-toggle').removeClass('closed').addClass('opened');
+            jQuery('.search-toggle, .search-container').addClass('opened');
+            jQuery('#search-terms').focus();
+          } else {
+            jQuery('.search-toggle').removeClass('opened').addClass('closed');
+            jQuery('.search-toggle, .search-container').removeClass('opened');
+          }
+        });
+
+    </script>
+   
   </head>
   <body>
     <div id="root"></div>
