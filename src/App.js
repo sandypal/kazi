@@ -2,10 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-import Home from './component/home';
 import About from './component/About';
 import Contact from './component/Contact';
 import Nav from './component/Nav';
+import Content from './component/Content';
+import Footer from './component/Footer';
 
 class App extends Component {
   render() {
@@ -13,12 +14,14 @@ class App extends Component {
        <Router>
            <div className="App">
             <Nav/>
+            <Content/>
            </div>
            <Routes>
-                 <Route exact path='/' element={< Home />}></Route>
+                 
                  <Route exact path='/about' element={< About />}></Route>
                  <Route exact path='/contact' element={< Contact />}></Route>
           </Routes>
+          <Footer/>
        </Router>
    );
   }
