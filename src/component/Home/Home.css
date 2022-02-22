@@ -1,6 +1,6 @@
 section {
-    margin-top: 80px;
-    margin-bottom: 80px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .btn:hover {
@@ -21,8 +21,8 @@ section {
 }
 
 .banner_text {
-    text-align: center;
-    padding: 150px 0;
+	text-align: center;
+	padding: 150px 0;
 }
 
 .banner_text h1 {
@@ -35,12 +35,13 @@ section {
 	font-family: 'Chakra Petch', sans-serif;
 }
 
-.play_text_box p, .work_text_box p {
-    color: #fff;
-    font-size: 22px;
-    font-weight: normal;
-    line-height: 30px;
-    margin-bottom: 50px;
+.play_text_box p,
+.work_text_box p {
+	color: #fff;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 30px;
+	margin-bottom: 50px;
 }
 
 .play_text_box a {
@@ -205,9 +206,11 @@ section {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .play_section {
-    margin-top: 120px;
+	margin-top: 120px;
 }
+
 .play_text {
 	text-align: center;
 	padding: 120px 0;
@@ -332,9 +335,9 @@ section {
 }
 
 .join_section {
-    text-align: center;
-    padding: 120px 0;
-    margin-top: 120px;
+	text-align: center;
+	padding: 120px 0;
+	margin-top: 120px;
 }
 
 .join_section h1 {
@@ -345,7 +348,6 @@ section {
 	text-align: center;
 	color: #FF0000;
 }
-
 
 .work_text_box a.work_byn.btn {
 	border: 2px solid #FF0000;
@@ -373,17 +375,19 @@ section {
 	font-size: 30px;
 	color: #ffffff;
 }
+
 @media (max-width: 1400px) {
-.header_section ul li {
-    padding: 0 0px;
+	.header_section ul li {
+		padding: 0 0px;
+	}
+	.header_section ul li a {
+		color: #fff !important;
+		font-weight: 500;
+		font-family: 'Chakra Petch', sans-serif;
+		font-size: 12px;
+	}
 }
-.header_section ul li a {
-    color: #fff !important;
-    font-weight: 500;
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 12px;
-}
-}
+
 @media (max-width: 1199px) {
 	.play_text_box p,
 	.work_text_box p {
