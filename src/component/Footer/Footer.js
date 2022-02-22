@@ -1,21 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-import LOGO from "../assets/LOGO.png";
+import LOGO from "../Footer/LOGO.png";
+import '../Footer/Footer.css';
 function Footer () {
    
 	return <div>
 <footer>
    <div className="container">
       <div className="row align-items-center">
-         <div className="col-md-3">
+         <div className="col-md-4 col-xl-3">
             <div className="footer_logo">
 			<img src={LOGO}/>
             </div>
          </div>
-         <div className="col-md-2">
+         <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
-            <h3>My Profile</h3>
             <ul>
+               <li><Link to="#">My Profile</Link></li>
                <li><Link to="#">Search</Link></li>
                <li><Link to="#">Blog</Link></li>
                <li><Link to="#">Gameplay Guide</Link></li>
@@ -24,10 +25,10 @@ function Footer () {
             </ul>
          </div>
          </div>
-         <div className="col-md-2">
+         <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
-               <h3>About</h3>
                <ul>
+                  <li><Link to="#">About</Link></li>
                   <li><Link to="#">Meet the Teem</Link></li>
                   <li><Link to="#">Newsletter</Link></li>
                   <li><Link to="#">Email  us</Link></li>
@@ -36,10 +37,11 @@ function Footer () {
                </ul>
             </div>
          </div>
-         <div className="col-md-2">
+         <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
-               <h3>@name_01</h3>
+              
                <ul>
+                  <li><Link to="#">@name_01</Link></li>
                   <li><Link to="#">Name</Link></li>
                   <li><Link to="#">Name</Link></li>
                   <li><Link to="#">Name#4512</Link></li>
@@ -48,7 +50,7 @@ function Footer () {
                </ul>
             </div>
          </div>
-         <div className="col-md-3">
+         <div className="col-md-4 col-xl-3">
             <div className="footer_search">
                <form className="navbar-form" role="search">
                   <div className="input-group add-on">
@@ -70,7 +72,7 @@ function Footer () {
          </div>
          </div>
          <div className="row align-items-center"><div className="col-md-12">
-            <div className="copy_right"><p>@copyright 2022</p></div>
+            <div className="copy_right"><p>@copyright {new Date().getFullYear()}</p></div>
          </div></div>
          </div>
 </footer>

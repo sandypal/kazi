@@ -11,16 +11,4 @@ code {
     monospace;
 }
 
-.banner_section {
-  background-image: url("/src/assets/banner_bg.png");
-}
 
-.play_section {
-	background-image: url("/src/assets/play_banner.png");
-}
-.join_section {
-	background-image: url("/src/assets/play_banner.png");
-  
-}
-.login_section {background-image: url("/src/assets/nw-thumb_1.jpg");
-}

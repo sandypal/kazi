@@ -1,13 +1,13 @@
 import React from 'react';
-
+import '../UserPage/User.css';
 function Login () {
     
 	return <div>
 		<div className="login_section">
          <div className="container-fluid">
             <div className="row">
-               <div className="col-md-6"></div>
-               <div className="col-md-6 bg-black">
+               
+               <div className="col-md-6 offset-md-6 bg-black">
                   <div className="login_form">
                      <h2>SIGN IN</h2>
                      <form action="/index.html" className="signin-form">

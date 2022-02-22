@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 function WorkWith () {
 	return <div>
-<section className="work_section mt-5 mb-5">
+<section className="work_section">
          <div className="container">
             <div className="row">
-               <div className="col-2"></div>
-               <div className="col-md-8">
+               
+               <div className="col-md-10 offset-md-1">
                   <div className="work_text_box text-center">
                      <p>Overlapping the feature image will be the title of this section (as shown above) and below
                         the above feature image and title will be this description section that will contain a small
@@ -22,7 +22,7 @@ function WorkWith () {
                      <a className="work_byn btn" href="#">WORK WITH US</a>
                   </div>
                </div>
-               <div className="col-2"></div>
+              
             </div>
          </div>
       </section>

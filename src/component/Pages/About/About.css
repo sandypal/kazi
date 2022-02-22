@@ -1,0 +1,19 @@
+.Page_about_section {
+  background-image: url("../About/Sections/Images/play_banner.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Page_about_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_about_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #FF0000;
+}

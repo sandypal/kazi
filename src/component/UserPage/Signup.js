@@ -1,13 +1,13 @@
 import React from 'react';
-
+import '../UserPage/User.css';
 function Signup () {
     
 	return <div>
 		<div className="login_section">
          <div className="container-fluid">
             <div className="row">
-               <div className="col-md-6"></div>
-               <div className="col-md-6 bg-black">
+              
+               <div className="col-md-6 offset-md-6 bg-black">
                   <div className="logup_form">
                      <h2>SIGN UP</h2>
                      <form action="/login.html" className="signup-form">
@@ -43,7 +43,7 @@ function Signup () {
                         
                      </form>
                      <div className="signup_text text-center">
-                        <p>Already have an account? <a href="/login">SIGN IN</a></p>
+                        <p>Already have an account? <a href="/signin">SIGN IN</a></p>
                      </div>
                   </div>
                </div>
