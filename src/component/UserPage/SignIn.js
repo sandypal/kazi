@@ -7,7 +7,7 @@ function Login () {
          <div className="container-fluid">
             <div className="row">
                
-               <div className="col-md-6 offset-md-6 bg-black">
+               <div className="col-md-6 offset-md-6">
                   <div className="login_form">
                      <h2>SIGN IN</h2>
                      <form action="/index.html" className="signin-form">
@@ -22,7 +22,7 @@ function Login () {
                            <button type="submit" className="form-control btn btn-primary rounded submit px-3">Sign In</button>
                         </div>
                         <div className="form-group d-md-flex forget_password">
-                           <div className="w-50 text-md-left">
+                           <div className="text-md-left">
                               <a href="#">Forgot Password</a>
                            </div>
                         </div>

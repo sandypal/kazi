@@ -35,7 +35,7 @@ footer {
 }
 
 .footer_search a {
-	background: #f00;
+	background: #ff0000;
 	text-align: center;
 	padding: 10px 15px;
 	border-radius: 8px;
@@ -45,8 +45,11 @@ footer {
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
+	border: 2px solid #ff0000;
 }
-
+.footer_search a:hover {
+    background: #000000;
+}
 .footer_search input {
 	background: #000;
 	border: 2px solid #EC0909;
@@ -80,10 +83,11 @@ footer {
 }
 
 .footer_search ul li a {
-	background: transparent;
-	padding: 0;
-	font-size: 28px;
-	color: #fff;
+    background: transparent;
+    padding: 0;
+    font-size: 28px;
+    color: #fff;
+    border: none;
 }
 
 .copy_right p {

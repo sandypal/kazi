@@ -89,7 +89,7 @@ function Nav () {
                               </ul>
                            </li>
                            <li className="nav-item">
-                              <Link className="nav-link" to="#">Connect Wallet </Link>
+                              <Link className="nav-link" to="/connect-wallet">Connect Wallet </Link>
                            </li>
                            <li className="nav-item">
                            <form className="form-inline md-form form-sm custom_search">

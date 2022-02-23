@@ -2,8 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import synopsis from "./Images/synopsis.png";
-import synopsis2 from "./Images/synopsis2.png";
+import the_story from "./Images/the_story.png";
 export default function SynopsisSlider() {
     var settings = {
         dots: true,
@@ -24,7 +23,7 @@ export default function SynopsisSlider() {
                <Slider {...settings}>
                   <div className="col-md-12">
                      <div className="row align-items-center">
-                        <div className="col-md-6"><img src={synopsis}/></div>
+                        <div className="col-md-6"><img src={the_story}/></div>
                         <div className="col-md-6">
                            <h2>THE STORY</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -34,7 +33,7 @@ export default function SynopsisSlider() {
                   </div>
                   <div className="col-md-12">
                      <div className="row align-items-center">
-                        <div className="col-md-6"><img src={synopsis2}/></div>
+                        <div className="col-md-6"><img src={the_story}/></div>
                         <div className="col-md-6">
                            <h2>COLLECT CARDS</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

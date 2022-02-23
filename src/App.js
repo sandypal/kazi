@@ -8,6 +8,7 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import SignIn from './component/UserPage/SignIn';
 import Signup from './component/UserPage/Signup';
+import ConnectWallet from './component/UserPage/ConnectWallet';
 import Footer from './component/Footer/Footer';
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
             <Route exact path='/contact' element={< Contact />}></Route>
             <Route exact path='/signin' element={< SignIn />}></Route>
             <Route exact path='/signup' element={< Signup />}></Route>
+            <Route exact path='/connect-wallet' element={< ConnectWallet />}></Route>
           </Routes>
           <Footer/>
        </Router>

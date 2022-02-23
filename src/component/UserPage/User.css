@@ -1,13 +1,19 @@
 .login_section {
-    background-image: url("./nw-thumb_1.jpg");
+    background-image: url("./sign_up_sign_in.png");
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat ;
     }
-    .login_form, .logup_form {
+    .login_form{
         max-width: 500px;
         margin: 0 auto;
         padding: 100px 0;
+    }
+    
+ .logup_form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 40px 0;
     }
     
     .login_form h2, .logup_form h2 {
@@ -28,11 +34,12 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 25px;
-        color: #7E7E7E;
+        color: #ffffff;
         margin-bottom: 40px;
+        opacity: 0.5;
     }
     
-    .login_form form.signin-form button.form-control.btn.btn-primary.rounded.submit, .logup_form button.form-control.btn.btn-primary.rounded.submit {
+    .login_form form.signin-form button.form-control.btn.btn-primary.rounded.submit, .logup_form .form-control.btn.btn-primary.rounded.submit {
         background: #FF0000;
         border-radius: 10px !important;
         border: none;
@@ -79,13 +86,14 @@
         background: transparent;
         padding: 15px 15px;
         border-radius: 10px;
-        border: 2px solid #fff;
+        border: 2px solid rgb(255, 255, 255);
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 25px;
-        color: #7E7E7E;
+        color: #ffffff;
         margin-bottom: 40px;
+        opacity: 0.5;
     }
     .logup_form form.signup-form #togglePassword {
         position: absolute;
@@ -146,3 +154,71 @@
     .form-group.mb-3 {
         position: relative;
     }
+
+
+    .wallet_section {
+        background-image: url("./connect_wallet.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat:no-repeat ;
+        }
+
+        .wallet_text {
+            padding: 120px 0;
+        }
+        
+        .wallet_text h1 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 64px;
+            line-height: 80px;
+            color: #FFFFFF;
+        }
+        
+        .wallet_text p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 35px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        .wallet_text a.wallet_btn {
+            background: #ff0000;
+            text-decoration: none;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 25px;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            display: inline-block;
+            border: 2px solid #ff0000;
+        } 
+        .wallet_text a.wallet_btn:hover {
+            border: 2px solid #ff0000;
+            background: #000000;
+            color: #ffffff;
+        }
+
+        @media (max-width: 767px) {
+        .wallet_text h1 {
+       font-size: 35px;
+       line-height: 40px;
+        }
+        .wallet_text {
+            padding: 80px 0;
+        }
+        .wallet_text p br {
+            display: none;
+        }
+    }
+    @media (max-width: 420px) {
+    .wallet_text h1 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+}
