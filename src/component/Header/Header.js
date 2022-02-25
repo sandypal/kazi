@@ -15,23 +15,25 @@ function Nav () {
                      <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <Link className="nav-link dropdown-toggle" to="/story" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Story
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="#">Plot summary</Link></li>
-                                 <li><Link className="dropdown-item" to="#">All chapters</Link></li>
-                                 <li><Link className="dropdown-item" to="#">The Genesis</Link></li>
+                              <li><Link className="dropdown-item" to="/story">Story</Link></li>
+                                 <li><Link className="dropdown-item" to="/plotsummary">Plot summary</Link></li>
+                                 <li><Link className="dropdown-item" to="/allchapters">All chapters</Link></li>
+                                 <li><Link className="dropdown-item" to="/genesis">The Genesis</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <Link className="nav-link dropdown-toggle" to="/metaverse" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Metaverse
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="#">Blacknet</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Alice</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Humanity</Link></li>
+                                 <li><Link className="dropdown-item" to="/metaverse">Metaverse</Link></li>
+                                 <li><Link className="dropdown-item" to="/blacknet">Blacknet</Link></li>
+                                 <li><Link className="dropdown-item" to="/alice">Alice</Link></li>
+                                 <li><Link className="dropdown-item" to="/humanity">Humanity</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
@@ -39,10 +41,10 @@ function Nav () {
                               Card collection
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="/about">All cards</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Blacknet</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Alice</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Humanity</Link></li>
+                                 <li><Link className="dropdown-item" to="#">All cards</Link></li>
+                                 <li><Link className="dropdown-item" to="/blacknet">Blacknet</Link></li>
+                                 <li><Link className="dropdown-item" to="/alice">Alice</Link></li>
+                                 <li><Link className="dropdown-item" to="/humanity">Humanity</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
@@ -59,8 +61,10 @@ function Nav () {
                               Guide
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="/signin">Getting started</Link></li>
-                                 <li><Link className="dropdown-item" to="/signup">How to play</Link></li>
+                              
+                                 <li><Link className="dropdown-item" to="/guide">Guide</Link></li>
+                                 <li><Link className="dropdown-item" to="#">Getting started</Link></li>
+                                 <li><Link className="dropdown-item" to="#">How to play</Link></li>
                                  <li><Link className="dropdown-item" to="#">Card Anatomy</Link></li>
                                  <li><Link className="dropdown-item" to="#">Marketplace</Link></li>
                                  <li><Link className="dropdown-item" to="#">Cost and fees</Link></li>

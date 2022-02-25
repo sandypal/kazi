@@ -1,0 +1,174 @@
+html {
+	scroll-behavior: smooth;
+  }
+
+
+.Page_guide_section {
+	background-image: url("../Genesis/Sections/Images/guide_header.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Page_guide_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_guide_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ffffff;
+}
+.guide_tab .nav-tabs {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    border: none;
+    margin: 0 0 50px 0;
+    gap: 20px;
+}
+
+
+.guide_tab .nav-tabs .nav-item .nav-link {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+.guide_tab .nav-tabs .nav-link.active, .guide_tab .nav-tabs .nav-item.show .nav-link {
+    color: #ffffff;
+    background-color: #ff0000;
+    border-color: #ff0000
+	;
+}
+
+.guide_tab h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FF0000;
+}
+
+.guide_tab p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.custom_tab_text h3 {
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+	font-weight: bold;
+}
+
+.custom_tab_text p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.guide_tab .row {
+    row-gap: 40px;
+}
+.guide_tab .row {
+    row-gap: 40px;
+}
+
+.scroll_link {
+    margin-bottom: 40px;
+}
+
+.scroll_link ul {
+    padding: 0;
+    margin: 0;
+}
+
+.scroll_link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 30px 15px 0;
+}
+
+
+.scroll_link ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.scroll_link ul li a:hover {
+    color: #ff0000;
+}
+
+.content_box {
+    overflow-y: scroll;
+    height: 550px;
+    overflow-x: hidden;
+    padding: 0 50px 0 0;
+}
+.custom_tab_text a {
+    border: 2px solid #ff0000;
+    padding: 8px 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.custom_tab_text a:hover {
+    color: #ffffff;
+}
+.content_box.cost_fee_tab {
+    overflow: hidden;
+    height: auto;
+}
+
+.custom_tab_text.cost_fee p {
+    margin: 0 0 5px 0;
+}
+
+.custom_tab_text.cost_fee hr {
+    color: #ff0000;
+    opacity: 1;
+}
+/* width */
+
+.content_box::-webkit-scrollbar {
+	width: 15px;
+}
+
+
+/* Track */
+
+.content_box::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.content_box::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.content_box::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
+

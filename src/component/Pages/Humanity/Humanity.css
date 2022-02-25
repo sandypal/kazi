@@ -1,0 +1,58 @@
+.Page_humanity_section {
+	background-image: url("../Humanity/Sections/Images/human_header_metaverse.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Page_humanity_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_humanity_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.humanitytext_box h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+
+.humanitytext_box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.humanitytext_box a:hover {
+    background: #ff0000;
+	color: #ffffff;
+}
+.humanitytext_box a {
+    border: 2px solid #EC0909;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+	margin-top: 40px;
+    display: inline-block;
+}

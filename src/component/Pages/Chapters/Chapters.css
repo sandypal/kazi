@@ -1,0 +1,126 @@
+.Page_chapters_section {
+	background-image: url("../Chapters/Sections/Images/chapters_banner.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Page_chapters_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_chapters_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.tab_section h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	color: #FF0000;
+	margin-bottom: 40px;
+}
+
+.tab_section p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.tab_section h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #FF0000;
+	margin-bottom: 30px;
+}
+
+.chapter_tab .nav {
+	display: grid;
+	flex-wrap: wrap;
+	padding-left: 0;
+	list-style: none;
+	grid-template-columns: 8fr 8fr 8fr 8fr 8fr 8fr 8fr 8fr;
+	border-bottom: none;
+	margin-bottom: 40px;
+}
+
+.chapter_tab .nav li .nav-link {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.chapter_tab .nav li .nav-link:hover,
+.chapter_tab .nav li .nav-link:focus,
+.chapter_tab .nav li .nav-link:focus-visible {
+	color: #ff0000;
+	border: none;
+	background: transparent;
+}
+
+.chapter_tab .nav li:hover,
+.chapter_tab .nav li:focus,
+.chapter_tab .nav li:focus-visible {
+	color: #ff0000;
+	border: none;
+	background: transparent;
+}
+
+.chapter_tab .nav li .nav-link.active,
+.chapter_tab .nav li.show .nav-link {
+	color: #ff0000;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.chapter_tab {
+	overflow-y: scroll;
+	height: 400px;
+}
+
+
+/* width */
+
+.chapter_tab::-webkit-scrollbar {
+	width: 15px;
+}
+
+
+/* Track */
+
+.chapter_tab::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.chapter_tab::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.chapter_tab::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}

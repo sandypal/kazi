@@ -1,0 +1,20 @@
+.Page_genesis_section {
+	background-image: url("../Genesis/Sections/Images/guide_header.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Page_genesis_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_genesis_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ffffff;
+}

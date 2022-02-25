@@ -1,8 +1,8 @@
 body {
-	background-color: #000;
+	background-color: #000 !important;
 	margin: 0;
 	padding: 0;
-	font-family: 'Chakra Petch', sans-serif;
+	font-family: 'Chakra Petch', sans-serif !important;
 }
 
 :focus {
@@ -30,3 +30,13 @@ img {
 	max-width: 100%;
 	width: 100%;
 }
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+:focus:not(:focus-visible) {
+	outline: 0px !important;
+  }

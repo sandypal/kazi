@@ -2,9 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import game_play from "./Images/game_play.png";
-import game_play2 from "./Images/game_play2.png";
-import game_play3 from "./Images/game_play3.png";
+import build_army from "./Images/build_army.png";
+import fight_battles from "./Images/fight_battles.png";
+import earn_money from "./Images/earn_money.png";
 
 export default function BuildArmy() {
     var settings = {
@@ -26,7 +26,7 @@ export default function BuildArmy() {
                <Slider {...settings}>
                   <div className="col-md-12">
                      <div className="row align-items-center">
-                        <div className="col-md-6"><img src={game_play}/></div>
+                        <div className="col-md-6"><img src={build_army}/></div>
                         <div className="col-md-6">
                            <h2>BUILD AN ARMY</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -41,7 +41,7 @@ export default function BuildArmy() {
                   </div>
                   <div className="col-md-12">
                      <div className="row align-items-center">
-                        <div className="col-md-6"><img src={game_play2}/></div>
+                        <div className="col-md-6"><img src={fight_battles}/></div>
                         <div className="col-md-6">
                            <h2>FIGHT BATTLES</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -55,7 +55,7 @@ export default function BuildArmy() {
                   </div>
                   <div className="col-md-12">
                      <div className="row align-items-center">
-                        <div className="col-md-6"><img src={game_play3}/></div>
+                        <div className="col-md-6"><img src={earn_money}/></div>
                         <div className="col-md-6">
                            <h2>EARN FROM WAR</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

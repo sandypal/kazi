@@ -42,15 +42,17 @@
     .login_form form.signin-form button.form-control.btn.btn-primary.rounded.submit, .logup_form .form-control.btn.btn-primary.rounded.submit {
         background: #FF0000;
         border-radius: 10px !important;
-        border: none;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 25px;
         color: #FFFFFF;
         padding: 10px 0;
+        border: 2px solid #ff0000;
     }
-    
+    .login_form form.signin-form button.form-control.btn.btn-primary.rounded.submit:hover, .logup_form .form-control.btn.btn-primary.rounded.submit:hover {
+        background-color: #000000;
+    }
     .signup_text p {
         font-style: normal;
         font-weight: normal;
@@ -61,7 +63,7 @@
         padding-top: 30px;
     }
     .signup_text p a {
-        color: #f00;
+        color: #ff0000;
         text-decoration: none;
         margin-left: 10px;
     }
@@ -154,8 +156,12 @@
     .form-group.mb-3 {
         position: relative;
     }
-
-
+    .forget_password a:hover {
+        color: #fff;
+    }
+    .signup_text p a:hover {
+        color: #fff;
+    }
     .wallet_section {
         background-image: url("./connect_wallet.png");
         background-position: center;
