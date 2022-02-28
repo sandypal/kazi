@@ -19,3 +19,13 @@
 	color: #ffffff;
 }
 
+@media (max-width: 767px) {
+	.Page_plotsummary_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_plotsummary_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}

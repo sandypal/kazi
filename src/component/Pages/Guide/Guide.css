@@ -171,4 +171,35 @@ html {
 .content_box::-webkit-scrollbar-thumb:hover {
 	background: #b30000;
 }
+@media (max-width: 1199px) {
+.guide_tab .nav-tabs .nav-item .nav-link {
+     font-size: 14px;
+} 
+}
+@media (max-width: 1024px) {
+.guide_tab .nav-tabs {
 
+    grid-template-columns: 4fr 4fr 4fr;
+    
+}
+}
+@media (max-width: 767px) {
+	.Page_guide_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_guide_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}
+
+@media (max-width: 520px) {
+.guide_tab .nav-tabs {
+    grid-template-columns: 4fr 4fr;
+    gap: 10px;
+}
+.guide_tab .nav-tabs .nav-item .nav-link {
+    font-size: 12px;
+}
+}

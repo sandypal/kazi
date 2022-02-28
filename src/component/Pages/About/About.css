@@ -1,5 +1,5 @@
 .Page_about_section {
-  background-image: url("../About/Sections/Images/play_banner.png");
+  background-image: url("../About/Sections/Images/about-tesseract.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -17,3 +17,15 @@
 	text-align: center;
 	color: #FF0000;
 }
+
+
+@media (max-width: 767px) {
+	.Page_about_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_about_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}

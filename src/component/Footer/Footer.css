@@ -1,5 +1,6 @@
 footer {
-	padding-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .footer_menu ul li a:hover {
@@ -27,7 +28,7 @@ footer {
 
 .footer_menu ul li a {
 	font-style: normal;
-	font-weight: 600;
+	font-weight: normal;
 	font-size: 16px;
 	line-height: 45px;
 	color: #FFFFFF;
@@ -91,13 +92,17 @@ footer {
 }
 
 .copy_right p {
-	text-align: center;
-	font-size: 18px;
-	color: #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 40px;
 }
 
 .copy_right {
 	margin-top: 30px;
+}
+.footer_search a:hover {
+    color: #fff;
 }
 
 @media (max-width: 1199px) {

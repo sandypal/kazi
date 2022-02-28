@@ -22,7 +22,7 @@ function Nav () {
                               <li><Link className="dropdown-item" to="/story">Story</Link></li>
                                  <li><Link className="dropdown-item" to="/plotsummary">Plot summary</Link></li>
                                  <li><Link className="dropdown-item" to="/allchapters">All chapters</Link></li>
-                                 <li><Link className="dropdown-item" to="/genesis">The Genesis</Link></li>
+                                 {/* <li><Link className="dropdown-item" to="/genesis">The Genesis</Link></li> */}
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
@@ -47,7 +47,7 @@ function Nav () {
                                  <li><Link className="dropdown-item" to="/humanity">Humanity</Link></li>
                               </ul>
                            </li>
-                           <li className="nav-item dropdown">
+                           {/* <li className="nav-item dropdown">
                               <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Play
                               </Link>
@@ -55,7 +55,7 @@ function Nav () {
                                  <li><Link className="dropdown-item" to="/signin">Sign In</Link></li>
                                  <li><Link className="dropdown-item" to="/signup">Sign Up</Link></li>
                                  </ul>
-                           </li>
+                           </li> */}
                            <li className="nav-item dropdown">
                               <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Guide

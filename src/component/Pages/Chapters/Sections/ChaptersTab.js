@@ -9,12 +9,6 @@ import Chapter7 from './AllChapters/Chapters7';
 import Chapter8 from './AllChapters/Chapters8';
 import Chapter9 from './AllChapters/Chapters9';
 import Chapter10 from './AllChapters/Chapters10';
-import Chapter11 from './AllChapters/Chapters11';
-import Chapter12 from './AllChapters/Chapters12';
-import Chapter13 from './AllChapters/Chapters13';
-import Chapter14 from './AllChapters/Chapters14';
-import Chapter15 from './AllChapters/Chapters15';
-import Chapter16 from './AllChapters/Chapters16';
 function ChaptersTab () {
 	return <div>
 <section className="tab_chapters_section">
@@ -55,24 +49,7 @@ function ChaptersTab () {
   <li className="nav-item" role="presentation">
     <button className="nav-link" id="Chapter10-tab" data-bs-toggle="tab" data-bs-target="#Chapter10" type="button" role="tab" aria-controls="Chapter10" aria-selected="false">Chapter 10</button>
   </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="Chapter11-tab" data-bs-toggle="tab" data-bs-target="#Chapter11" type="button" role="tab" aria-controls="Chapter11" aria-selected="false">Chapter 11</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="Chapter12-tab" data-bs-toggle="tab" data-bs-target="#Chapter12" type="button" role="tab" aria-controls="Chapter12" aria-selected="true">Chapter 12</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="Chapter13-tab" data-bs-toggle="tab" data-bs-target="#Chapter13" type="button" role="tab" aria-controls="Chapter13" aria-selected="false">Chapter 13</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="Chapter14-tab" data-bs-toggle="tab" data-bs-target="#Chapter14" type="button" role="tab" aria-controls="Chapter14" aria-selected="false">Chapter 14</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="Chapter15-tab" data-bs-toggle="tab" data-bs-target="#Chapter15" type="button" role="tab" aria-controls="Chapter15" aria-selected="true">Chapter 15</button>
-  </li>
-  <li className="nav-item" role="presentation">
-    <button className="nav-link" id="Chapter16-tab" data-bs-toggle="tab" data-bs-target="#Chapter16" type="button" role="tab" aria-controls="Chapter16" aria-selected="false">Chapter 16</button>
-  </li>
+ 
 </ul>
 <div className="tab-content" id="myTabContent">
   <div className="tab-pane fade show active" id="Chapter1" role="tabpanel" aria-labelledby="Chapter1-tab">
@@ -105,24 +82,7 @@ function ChaptersTab () {
   <div className="tab-pane fade" id="Chapter10" role="tabpanel" aria-labelledby="Chapter10-tab">
   <Chapter10/>
      </div>
-  <div className="tab-pane fade" id="Chapter11" role="tabpanel" aria-labelledby="Chapter11-tab">
-  <Chapter11/>
-     </div>
-  <div className="tab-pane fade" id="Chapter12" role="tabpanel" aria-labelledby="Chapter12-tab">
-  <Chapter12/>
-     </div>
-  <div className="tab-pane fade" id="Chapter13" role="tabpanel" aria-labelledby="Chapter13-tab">
-  <Chapter13/>
-     </div>
-  <div className="tab-pane fade" id="Chapter14" role="tabpanel" aria-labelledby="Chapter14-tab">
-  <Chapter14/>
-     </div>
-  <div className="tab-pane fade" id="Chapter15" role="tabpanel" aria-labelledby="Chapter15-tab">
-  <Chapter15/>
-     </div>
-  <div className="tab-pane fade" id="Chapter16" role="tabpanel" aria-labelledby="Chapter16-tab">
-  <Chapter16/>
-     </div>
+
 </div>
                   </div>
                   </div>

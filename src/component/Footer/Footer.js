@@ -11,29 +11,28 @@ function Footer () {
          <div className="col-md-4 col-xl-3">
             <div className="footer_logo">
 			<img src={LOGO}/>
+         <div className="copy_right"><p>© {new Date().getFullYear()} EXTREMIS All rights reserved.</p></div>
             </div>
          </div>
          <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
             <ul>
                <li><Link to="#">My Profile</Link></li>
-               <li><Link to="#">Search</Link></li>
                <li><Link to="#">Blog</Link></li>
                <li><Link to="#">Gameplay Guide</Link></li>
                <li><Link to="#">FAQS</Link></li>
-               <li><Link to="#">Terms and Conditions</Link></li>
+               <li><Link to="#">Subscribe</Link></li>
             </ul>
          </div>
          </div>
          <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
                <ul>
-                  <li><Link to="#">About</Link></li>
+                  <li><Link to="#">About EXTREMIS</Link></li>
                   <li><Link to="#">Meet the Teem</Link></li>
-                  <li><Link to="#">Newsletter</Link></li>
-                  <li><Link to="#">Email  us</Link></li>
-                  <li><Link to="#">Game Credits</Link></li>
-                  <li><Link to="#">Terms and Conditions</Link></li>
+                  <li><Link to="#">Credits</Link></li>
+                  <li><Link to="#">Terms of use</Link></li>
+                  <li><Link to="#">Contact us</Link></li>
                </ul>
             </div>
          </div>
@@ -41,12 +40,11 @@ function Footer () {
             <div className="footer_menu">
               
                <ul>
-                  <li><Link to="#">@name_01</Link></li>
-                  <li><Link to="#">Name</Link></li>
-                  <li><Link to="#">Name</Link></li>
-                  <li><Link to="#">Name#4512</Link></li>
-                  <li><Link to="#">#name_0021</Link></li>
-                  <li><Link to="#">#name_0022</Link></li>
+                  <li><Link to="#">Discord</Link></li>
+                  <li><Link to="#">Twitter</Link></li>
+                  <li><Link to="#">Facebook</Link></li>
+                  <li><Link to="#">Instagram</Link></li>
+                  <li><Link to="#">Youtube</Link></li>
                </ul>
             </div>
          </div>
@@ -71,9 +69,6 @@ function Footer () {
             </div>
          </div>
          </div>
-         <div className="row align-items-center"><div className="col-md-12">
-            <div className="copy_right"><p>@copyright {new Date().getFullYear()}</p></div>
-         </div></div>
          </div>
 </footer>
 </div>

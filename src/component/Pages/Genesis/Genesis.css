@@ -18,3 +18,14 @@
 	text-align: center;
 	color: #ffffff;
 }
+
+@media (max-width: 767px) {
+	.Page_genesis_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_genesis_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}

@@ -201,7 +201,7 @@ section {
 }
 
 .play_section {
-	background-image: url("./Sections/Images/work_1.png");
+	background-image: url("./Sections/Images/how_to_play.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -328,7 +328,7 @@ section {
 }
 
 .join_section {
-	background-image: url("./Sections/Images/metaverse_2.png");
+	background-image: url("./Sections/Images/join_community.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

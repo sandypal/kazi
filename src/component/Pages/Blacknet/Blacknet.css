@@ -55,3 +55,13 @@
     margin-top: 40px;
     display: inline-block;
 }
+@media (max-width: 767px) {
+	.Page_blacknet_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_blacknet_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}

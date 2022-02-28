@@ -53,7 +53,7 @@
 	flex-wrap: wrap;
 	padding-left: 0;
 	list-style: none;
-	grid-template-columns: 8fr 8fr 8fr 8fr 8fr 8fr 8fr 8fr;
+	grid-template-columns: 5fr 5fr 5fr 5fr 5fr ;
 	border-bottom: none;
 	margin-bottom: 40px;
 }
@@ -123,4 +123,31 @@
 
 .chapter_tab::-webkit-scrollbar-thumb:hover {
 	background: #b30000;
+}
+
+@media (max-width: 1199px) {
+.chapter_tab .nav {
+    grid-template-columns: 5fr 5fr 5fr;
+    
+}
+.tab_section h2 {
+    font-size: 30px;
+    line-height: 40px;
+   
+}
+}
+@media (max-width: 767px) {
+.Page_chapters_section {
+    text-align: center;
+    padding: 80px 0;
+}
+.Page_chapters_section h1 {
+    font-size: 43px;
+    line-height: 50px;
+}
+}
+@media (max-width: 480px) {
+.chapter_tab .nav {
+    grid-template-columns: 5fr 5fr;
+}
 }

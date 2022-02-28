@@ -56,3 +56,13 @@
 	margin-top: 40px;
     display: inline-block;
 }
+@media (max-width: 767px) {
+	.Page_humanity_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_humanity_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}
