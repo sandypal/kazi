@@ -28,8 +28,8 @@ function Footer () {
          <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
                <ul>
-                  <li><Link to="#">About EXTREMIS</Link></li>
-                  <li><Link to="#">Meet the Teem</Link></li>
+                  <li><Link to="/about">About EXTREMIS</Link></li>
+                  <li><Link to="/meet-team">Meet the Teem</Link></li>
                   <li><Link to="#">Credits</Link></li>
                   <li><Link to="#">Terms of use</Link></li>
                   <li><Link to="#">Contact us</Link></li>

@@ -9,7 +9,7 @@ function BlacknetText () {
                   <div className="blacknettext_box text-center">
                       <h2>BLACKNET</h2>
                      <p>The world of EXTREMIS brims with adventure and mysterious conflicts that has to be solved immediately, else something ominous, yet very expected would take place. The metaverse consists of three races being allies and foes: Humanity, Blacknet and Alice. </p>
-                     <a href="#">SEE BLACKNET CARDS</a>
+                     <a href="/cardcollection">SEE BLACKNET CARDS</a>
                   </div>
                </div>
                 

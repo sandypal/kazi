@@ -1,0 +1,31 @@
+.Page_visit_section {
+  background-image: url("../Visit/Sections/Images/about-tesseract.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Page_visit_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_visit_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #FF0000;
+}
+
+
+@media (max-width: 767px) {
+	.Page_visit_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_visit_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	}

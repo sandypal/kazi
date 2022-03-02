@@ -10,7 +10,7 @@ function MetaverseAlice () {
                <h3>ALICE</h3>
                <p>As humanity suddenly faces threats to the unbelievably powerful and violent Blacknet, The Doctor creates Alice: another AI system that holds information and tools to decode Blacknets objectives. Together with Alice, humanity strives to earn victory and keep the world to themselves. </p>
                <ul>
-                  <li><a href="/alice">SEE ALICE CARDS</a></li>
+                  <li><a href="/cardcollection">SEE ALICE CARDS</a></li>
                   <li><a href="/alice">READ MORE</a></li>
                </ul>
             </div>

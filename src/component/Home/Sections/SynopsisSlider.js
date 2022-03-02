@@ -28,7 +28,7 @@ export default function SynopsisSlider() {
                         <div className="col-md-6">
                            <h2>THE STORY</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                           <a className="play_byn btn" href="#">READ MORE</a>
+                           <a className="play_byn btn" href="/story">READ MORE</a>
                         </div>
                      </div>
                   </div>
@@ -38,7 +38,7 @@ export default function SynopsisSlider() {
                         <div className="col-md-6">
                            <h2>COLLECT CARDS</h2>
                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                           <a className="play_byn btn" href="#">SEE CARDS</a>
+                           <a className="play_byn btn" href="/cardcollection">SEE CARDS</a>
                         </div>
                      </div>
                   </div>

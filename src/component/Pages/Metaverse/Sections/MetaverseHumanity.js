@@ -15,7 +15,7 @@ function MetaverseHumanity () {
                <h3>HUMANITY</h3>
                <p>The most powerful species on planet Earth now has unveiled true faces of knowledge and has traversed Scientific fields experimentally for hundreds of years. In achieving so, humans have expanded  on developments that make life easier. Call it greed or an unexpected turn of fate, humans learn  about consciousnesses and try to imply it creating an AI system that backfires. This race soon has to come up with solutions to save themselves from the AI that has gone rampant.</p>
                <ul>
-                  <li><a href="/humanity">SEE HUMANITY CARDS</a></li>
+                  <li><a href="/cardcollection">SEE HUMANITY CARDS</a></li>
                   <li><a href="/humanity">READ MORE</a></li>
                </ul>
             </div>

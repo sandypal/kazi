@@ -31,7 +31,7 @@ export default function ProfileSlider() {
                           <h3>Username</h3>
                            <p>Battles won: <span>23</span>
                             </p>
-                           <a className="play_byn btn" href="#">SEE FULL LIST</a>
+                           <a className="play_byn btn" href="/leaderboard">SEE FULL LIST</a>
                         </div>
                      </div>
                   </div>
@@ -45,7 +45,7 @@ export default function ProfileSlider() {
                          
                           <p>Battles won: <span>23</span>
                            </p>
-                          <a className="play_byn btn" href="#">SEE FULL LIST</a>
+                          <a className="play_byn btn" href="/leaderboard">SEE FULL LIST</a>
                        </div>
                     </div>
                  </div>
@@ -59,7 +59,7 @@ export default function ProfileSlider() {
                         
                         <p>Battles won: <span>23</span>
                          </p>
-                        <a className="play_byn btn" href="#">SEE FULL LIST</a>
+                        <a className="play_byn btn" href="/leaderboard">SEE FULL LIST</a>
                      </div>
                   </div>
                </div>

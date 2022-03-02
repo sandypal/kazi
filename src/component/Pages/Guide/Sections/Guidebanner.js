@@ -1,5 +1,5 @@
 import React from 'react';
-function Genesisbanner () {
+function Guidebanner () {
 	return <div>
 <div className="Page_guide_section">
          <div className="container">
@@ -14,4 +14,4 @@ function Genesisbanner () {
       </div>
     </div>
 }
-export default Genesisbanner;
+export default Guidebanner;

@@ -1,14 +1,16 @@
 import React from 'react';
 import Guidebanner from '../Guide/Sections/Guidebanner';
-import GuideTab from '../Guide/Sections/GuideTab';
+import GuideList from '../Guide/Sections/GuideList';
+import GuideText from '../Guide/Sections/GuideText';
 import '../Guide/Guide.css';
 
-function Genesis () {
+function Guide () {
 	return <div>
 		<Guidebanner/>
-		<GuideTab/>
+		<GuideList/>
+		<GuideText/>
 
         
 	</div>
 }
-export default Genesis;
+export default Guide;

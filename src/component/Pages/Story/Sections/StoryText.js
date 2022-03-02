@@ -1,5 +1,5 @@
 import React from 'react';
-function StoryBanner () {
+function StoryText () {
 	return <div>
 <section className="story_text_section">
          <div className="container">
@@ -12,7 +12,7 @@ function StoryBanner () {
 
                     <p>Soon, as the war breaks out, a group of seven people start tracking the timeline of the life of Morbis and reach The Doctor who went on a hiding. Together, they rewrite Morbis’ generic code. Hence Alice is born to handle the looming disasters.
                     </p>
-                     <a className="story btn" href="#">VIEW CHAPTERS</a>
+                     <a className="story btn" href="/allchapters">VIEW CHAPTERS</a>
                   </div>
                </div>
                 
@@ -21,4 +21,4 @@ function StoryBanner () {
       </section>
     </div>
     }
-    export default StoryBanner;
+    export default StoryText;

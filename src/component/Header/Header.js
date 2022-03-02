@@ -37,10 +37,11 @@ function Nav () {
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <Link className="nav-link dropdown-toggle" to="/cardcollection" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Card collection
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><Link className="dropdown-item" to="/cardcollection">Card collection</Link></li>
                                  <li><Link className="dropdown-item" to="#">All cards</Link></li>
                                  <li><Link className="dropdown-item" to="/blacknet">Blacknet</Link></li>
                                  <li><Link className="dropdown-item" to="/alice">Alice</Link></li>
@@ -63,33 +64,36 @@ function Nav () {
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                               
                                  <li><Link className="dropdown-item" to="/guide">Guide</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Getting started</Link></li>
-                                 <li><Link className="dropdown-item" to="#">How to play</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Card Anatomy</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Marketplace</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Cost and fees</Link></li>
-                                 <li><Link className="dropdown-item" to="#">FAQ</Link></li>
+                                 <li><Link className="dropdown-item" to="/getting-started">Getting started</Link></li>
+                                 <li><Link className="dropdown-item" to="/game-features">How to play</Link></li>
+                                 <li><Link className="dropdown-item" to="/card-anatomy">Card Anatomy</Link></li>
+                                 <li><Link className="dropdown-item" to="/market-place">Marketplace</Link></li>
+                                 <li><Link className="dropdown-item" to="/cost-fees">Cost and fees</Link></li>
+                                 <li><Link className="dropdown-item" to="/faq">FAQ</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <Link className="nav-link dropdown-toggle" to="/More" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               More
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                 <li><Link className="dropdown-item" to="#">Leaderboard</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Weapons’ list</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Whitepaper</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Buy NFTs</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Meet the team</Link></li>
+                                 <li><Link className="dropdown-item" to="/More">More</Link></li>
+                                 <li><Link className="dropdown-item" to="/leaderboard">Leaderboard</Link></li>
+                                 <li><Link className="dropdown-item" to="/weapons">Weapons’ list</Link></li>
+                                 <li><Link className="dropdown-item" to="/whitepaper">Whitepaper</Link></li>
+                                 <li><Link className="dropdown-item" to="/buy-nft">Buy NFTs</Link></li>
+                                 <li><Link className="dropdown-item" to="/meet-team">Meet the team</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <Link className="nav-link dropdown-toggle" to="/tesseract-ltd" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Tesseract Ltd.
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                              
+                                 <li><Link className="dropdown-item" to="/tesseract-ltd">Tesseract Ltd.</Link></li>
                                  <li><Link className="dropdown-item" to="/about">About</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Visit</Link></li>
+                                 <li><Link className="dropdown-item" to="/visit">Visit</Link></li>
                               </ul>
                            </li>
                            <li className="nav-item">

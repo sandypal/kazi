@@ -23,7 +23,7 @@ html {
 	text-align: center;
 	color: #ffffff;
 }
-.guide_tab .nav-tabs {
+.guide_menu_list ul {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr 4fr;
     border: none;
@@ -32,7 +32,7 @@ html {
 }
 
 
-.guide_tab .nav-tabs .nav-item .nav-link {
+.guide_menu_list ul .nav-item .nav-link {
     width: 100%;
     background: transparent;
     border: 1px solid #ff0000;
@@ -40,7 +40,7 @@ html {
     color: #fff;
     font-size: 18px;
 }
-.guide_tab .nav-tabs .nav-link.active, .guide_tab .nav-tabs .nav-item.show .nav-link {
+.guide_menu_list ul .nav-link.active, .guide_menu_list ul .nav-item.show .nav-link {
     color: #ffffff;
     background-color: #ff0000;
     border-color: #ff0000
@@ -172,12 +172,12 @@ html {
 	background: #b30000;
 }
 @media (max-width: 1199px) {
-.guide_tab .nav-tabs .nav-item .nav-link {
+    .guide_menu_list ul .nav-item .nav-link {
      font-size: 14px;
 } 
 }
 @media (max-width: 1024px) {
-.guide_tab .nav-tabs {
+    .guide_menu_list ul {
 
     grid-template-columns: 4fr 4fr 4fr;
     
@@ -195,11 +195,16 @@ html {
 	}
 
 @media (max-width: 520px) {
-.guide_tab .nav-tabs {
+    .guide_menu_list ul {
     grid-template-columns: 4fr 4fr;
     gap: 10px;
 }
-.guide_tab .nav-tabs .nav-item .nav-link {
+.guide_menu_list ul .nav-item .nav-link {
     font-size: 12px;
+}
+.guide_tab h4 {
+
+    font-size: 35px;
+    line-height: 40px;
 }
 }
