@@ -20,7 +20,7 @@ function Footer () {
                <li><Link to="#">My Profile</Link></li>
                <li><Link to="#">Blog</Link></li>
                <li><Link to="#">Gameplay Guide</Link></li>
-               <li><Link to="#">FAQS</Link></li>
+               <li><Link to="/faq">FAQS</Link></li>
                <li><Link to="#">Subscribe</Link></li>
             </ul>
          </div>
@@ -32,7 +32,7 @@ function Footer () {
                   <li><Link to="/meet-team">Meet the Teem</Link></li>
                   <li><Link to="#">Credits</Link></li>
                   <li><Link to="#">Terms of use</Link></li>
-                  <li><Link to="#">Contact us</Link></li>
+                  <li><Link to="/contact-us">Contact us</Link></li>
                </ul>
             </div>
          </div>

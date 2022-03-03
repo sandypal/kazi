@@ -9,7 +9,7 @@ function Signup () {
               <div className="col-md-6 offset-md-6">
                   <div className="logup_form">
                      <h2>SIGN UP</h2>
-                     <form action="/login.html" className="signup-form">
+                     <form action="/signin" className="signup-form">
                         <div className="row">
                            <div className="col-md-6"><div className="form-group mb-3">
                               <input type="text" className="form-control" placeholder="First name*" required=""/>

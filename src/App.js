@@ -3,7 +3,7 @@ import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import About from './component/Pages/About/About';
-import Contact from './component/Contact';
+import Contact from './component/Pages/Contact/Contact';
 import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import SignIn from './component/UserPage/SignIn';
@@ -72,7 +72,7 @@ class App extends Component {
             <Route exact path='/tesseract-ltd' element={< TesseractLtd />}></Route>
             <Route exact path='/about' element={< About />}></Route>
             <Route exact path='/visit' element={< Visit />}></Route>
-            <Route exact path='/contact' element={< Contact />}></Route>
+            <Route exact path='/contact-us' element={< Contact />}></Route>
             <Route exact path='/signin' element={< SignIn />}></Route>
             <Route exact path='/signup' element={< Signup />}></Route>
             <Route exact path='/connect-wallet' element={< ConnectWallet />}></Route>
