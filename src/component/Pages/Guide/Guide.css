@@ -118,7 +118,9 @@ html {
     height: 550px;
     overflow-x: hidden;
     padding: 0 50px 0 0;
+    
 }
+
 .custom_tab_text a {
     border: 2px solid #ff0000;
     padding: 8px 30px;
@@ -148,7 +150,11 @@ html {
 .content_box::-webkit-scrollbar {
 	width: 15px;
 }
-
+.content_box {
+    scrollbar-width: thin;
+      scrollbar-color: #ff0000 rgb(202, 202, 202);
+      
+    }
 
 /* Track */
 

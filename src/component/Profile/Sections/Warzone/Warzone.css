@@ -1,0 +1,355 @@
+.warzone_section {
+    background-image: url("../Warzone/Images/war_zone.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.warzone_section {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.warzone_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ff0000;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+.battlefield_content ul {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    margin: 30px 0 30px 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.battlefield_content ul li {
+    text-align: center;
+}
+
+.battlefield_content ul li img {
+    width: 180px;
+    height: 180px;
+}
+
+.battlefield_info h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FF0000;
+}
+
+.battlefield_info {
+    margin-top: 30px;
+}
+
+.field_info {
+    border-left: 1px solid #ff0000;
+    margin: 0 auto;
+    max-width: 120px;
+    padding-left: 15px;
+}
+
+.field_info p {
+    margin: 0;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+}
+
+.field_info p span {
+    font-size: 25px;
+}
+
+.field_btn {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.field_btn a {
+    border: 2px solid #ff0000;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.war_vs {
+    width: 150px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.war_vs strong {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 150px;
+}
+.battlefield_content h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.warzone_field {
+    scrollbar-width: thin;
+    scrollbar-color: #ff0000 rgb(202, 202, 202);
+}
+
+.create_zone .form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .create_zone .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .create_zone .form-group label {
+    position: relative;
+    cursor: pointer;
+    color: #ff0000;
+}
+  
+  .create_zone .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #ff0000;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 13px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.create_zone form label {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+.create_zone form {
+    text-align: center;
+}
+.create_zone .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 11px;
+    width: 8px;
+    height: 18px;
+    border: solid #ff0000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.create_zone ul {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    margin: 30px 0 30px 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+.create_button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.create_button a {
+    border: 2px solid #ff0000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.create_battlefield h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.create_battlefield p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.create_battlefield p i {
+    color: #ff0000;
+    padding-right: 10px;
+}
+.create_zone ul li img {
+    width: 150px;
+}
+.create_zone .war_vs strong {
+    color: #ff0000;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 110px;
+}
+.create_zone .war_vs {
+    width: 110px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.war_card h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FF0000;
+    margin-top: 30px;
+}
+
+.war_card h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+
+
+.war_list {
+    margin-top: 20px;
+}
+
+.war_list ul {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.war_list ul li {
+    padding: 5px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.war_list ul li span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FF0000;
+}
+
+.upload_img {
+    text-align: center;
+    border: 2px dashed #ffffff;
+}
+.upload_img .image-upload {
+    padding: 150px 0;
+}
+.upload_img .image-upload label {
+    font-size: 20px;
+}
+.upload_img .image-upload i {
+    font-size: 80px;
+}
+.upload_img .image-upload>input {
+    display: none;
+}
+.war_card {
+    margin-bottom: 50px;
+}
+.war_card_scroll h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.confirm_button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.confirm_button a {
+    border: 2px solid #ff0000;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.warzone_field, .war_card_scroll {
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0 50px 0 0;
+}
+
+
+
+/* width */
+
+.warzone_field::-webkit-scrollbar, .war_card_scroll::-webkit-scrollbar {
+	width: 15px;
+}
+
+.warzone_field, .war_card_scroll{
+	scrollbar-width: thin;
+	scrollbar-color: #ff0000 rgb(202, 202, 202);
+}
+
+
+/* Track */
+
+.warzone_field::-webkit-scrollbar-track, .war_card_scroll::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.warzone_field::-webkit-scrollbar-thumb, .war_card_scroll::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.warzone_field::-webkit-scrollbar-thumb:hover, .war_card_scroll::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}

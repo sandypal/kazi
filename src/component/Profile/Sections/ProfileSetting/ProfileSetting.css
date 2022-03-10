@@ -1,0 +1,137 @@
+.profile_set_section {
+    background-image: url("../ProfileSetting/Images/Landing-header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.profile_set_section {
+    text-align: center;
+    padding: 120px 0;
+}
+
+.profile_set_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ff0000;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+.edit_image {
+    text-align: left;
+}
+
+.edit_image img {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #818080;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.edit_icon {
+    position: relative;
+}
+
+.edit_icon i {
+    position: absolute;
+    bottom: 40px;
+    left: 11%;
+    right: auto;
+    background: #ff0000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 27px;
+    padding: 1px 0 0 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.edit_image h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+.edit_from h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.edit_from form label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.edit_from form input {
+    border: 1px solid #FF0000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #000;
+    padding: 20px 20px;
+    color: #fff;
+}
+.edit_from form .form-control:focus {
+    color: #212529;
+    background-color: #000;
+    border-color: #ff0000;
+    outline: 0;
+    box-shadow: none;
+}
+.edit_from form button.form-control.btn.btn-primary.rounded.submit, .edit_from form .form-control.btn.btn-primary.rounded.submit {
+    background: #FF0000;
+    border-radius: 10px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 10px 0;
+    border: 2px solid #ff0000;
+    width: auto;
+    margin-top: 30px;
+}
+.edit_from form button.form-control.btn.btn-primary.rounded.submit:hover, .edit_from form .form-control.btn.btn-primary.rounded.submit:hover {
+    background-color: #000000;
+}
+.forget_password a {
+    margin: 10px 0 30px 0;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FF0000;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.forget_password a:hover {
+    color: #fff;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}

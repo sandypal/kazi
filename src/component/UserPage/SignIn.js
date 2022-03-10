@@ -10,7 +10,7 @@ function Login () {
                <div className="col-md-6 offset-md-6">
                   <div className="login_form">
                      <h2>SIGN IN</h2>
-                     <form action="/index.html" className="signin-form">
+                     <form action="/" className="signin-form">
                         <div className="form-group mb-3">
                            <input type="text" className="form-control" placeholder="Username or email*" required=""/>
                         </div>

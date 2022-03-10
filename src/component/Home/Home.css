@@ -376,17 +376,7 @@ section {
 	color: #ffffff;
 }
 
-@media (max-width: 1400px) {
-	.header_section ul li {
-		padding: 0 0px;
-	}
-	.header_section ul li a {
-		color: #fff !important;
-		font-weight: 500;
-		font-family: 'Chakra Petch', sans-serif;
-		font-size: 12px;
-	}
-}
+
 
 @media (max-width: 1199px) {
 	.play_text_box p,

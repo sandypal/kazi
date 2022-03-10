@@ -10,8 +10,8 @@ function Footer () {
       <div className="row align-items-center">
          <div className="col-md-4 col-xl-3">
             <div className="footer_logo">
-			<img src={LOGO}/>
-         <div className="copy_right"><p>© {new Date().getFullYear()} EXTREMIS All rights reserved.</p></div>
+			<img className="align-top" src={LOGO}/>
+         <div className="copy_right align-bottom"><p>© {new Date().getFullYear()} EXTREMIS All rights reserved.</p></div>
             </div>
          </div>
          <div className="col-md-4 col-xl-2">
@@ -31,8 +31,8 @@ function Footer () {
                   <li><Link to="/about">About EXTREMIS</Link></li>
                   <li><Link to="/meet-team">Meet the Teem</Link></li>
                   <li><Link to="#">Credits</Link></li>
-                  <li><Link to="#">Terms of use</Link></li>
-                  <li><Link to="/contact-us">Contact us</Link></li>
+                  <li><Link className="text-danger" to="#">Terms of use</Link></li>
+                  <li><Link className="text-danger" to="/contact-us">Contact us</Link></li>
                </ul>
             </div>
          </div>
@@ -52,7 +52,7 @@ function Footer () {
             <div className="footer_search">
                <form className="navbar-form" role="search">
                   <div className="input-group add-on">
-                    <input className="form-control" placeholder="search heare..." name="srch-term" id="srch-term" type="text" />
+                    <input className="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text" />
                     <div className="input-group-btn">
                       <button className="btn btn-default" type="submit"><i className="fal fa-search"></i></button>
                     </div>

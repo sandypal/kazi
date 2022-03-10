@@ -1,0 +1,250 @@
+.battle_section {
+	background-image: url("../BattleList/Sections/Images/battle-list.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.battle_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.battle_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ff0000;
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+.battle_content_section h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 40px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+}
+
+.battle_ready h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF0000;
+	margin-top: 30px;
+}
+
+.battle_ready h5 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FFFFFF;
+}
+
+.list_box {
+	margin-top: 20px;
+}
+
+.list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list_box ul li span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FF0000;
+}
+
+.list_box ul li {
+	padding: 5px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.bettle_btn {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 30px 0 0;
+	padding: 0;
+	gap: 30px;
+}
+
+.bettle_btn a {
+	border: 2px solid #ff0000;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.Battle_Box .row {
+	row-gap: 40px;
+}
+
+.Battle_Box {
+	overflow-y: scroll;
+	height: 550px;
+	overflow-x: hidden;
+	padding: 0 50px 0 0;
+}
+
+.battle_zone {
+	margin-top: 70px;
+}
+
+.battle_zone_box ul {
+	display: grid;
+	grid-template-columns: 5fr 1fr 5fr;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	list-style: none;
+}
+
+.list_box {
+	margin-top: 20px;
+}
+
+.battle_zone_box .list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.battle_zone_box .list_box ul li span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FF0000;
+}
+
+.battle_zone_box .list_box ul li {
+	padding: 5px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.battle_vs {
+	width: 150px;
+	text-align: center;
+	border: 2px solid #ff0000;
+	border-radius: 50%;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.battle_vs strong {
+	color: #ff0000;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 150px;
+}
+
+.upload_img .image-upload {
+	padding: 150px 0;
+}
+
+.upload_img {
+	text-align: center;
+	border: 2px dashed #ffffff;
+}
+
+.upload_img .image-upload i {
+	font-size: 80px;
+}
+
+.upload_img .image-upload label {
+	font-size: 20px;
+}
+
+.upload_img .image-upload>input {
+	display: none;
+}
+
+.battle_zone_box h2 {
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 15px #000000;
+	margin: 20px 0 40px;
+}
+
+.zone_btn {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.zone_btn a {
+	background: #ff0000;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 40px;
+	border: 2px solid #ff0000;
+}
+
+.zone_btn a:hover {
+	background: transparent;
+	border: 2px solid #ff0000;
+}
+
+
+/* width */
+
+.Battle_Box::-webkit-scrollbar {
+	width: 15px;
+}
+
+.Battle_Box {
+	scrollbar-width: thin;
+	scrollbar-color: #ff0000 rgb(202, 202, 202);
+}
+
+
+/* Track */
+
+.Battle_Box::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.Battle_Box::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.Battle_Box::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}

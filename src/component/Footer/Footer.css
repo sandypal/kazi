@@ -2,7 +2,9 @@ footer {
     padding-top: 50px;
     padding-bottom: 30px;
 }
-
+.footer_logo {
+    text-align: left;
+}
 .footer_menu ul li a:hover {
 	color: #f00;
 }
@@ -10,7 +12,9 @@ footer {
 .footer_search ul li a:hover {
 	color: #f00;
 }
-
+footer .text-danger {
+    color: #ff0000 !important;
+}
 .footer_menu h3 {
 	font-style: normal;
 	font-weight: 600;
@@ -92,7 +96,7 @@ footer {
 }
 
 .copy_right p {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     color: #fff;
     margin-top: 40px;
@@ -104,7 +108,20 @@ footer {
 .footer_search a:hover {
     color: #fff;
 }
-
+@media (min-width: 1200px) {
+	.footer_search ul li {
+		padding: 0 10px 0 10px;
+	}
+	.footer_search ul {
+		text-align: center;
+	}
+	.copy_right p {
+		text-align: left;
+		font-size: 15px;
+		
+	}
+	
+}
 @media (max-width: 1199px) {
 	.footer_menu ul li a {
 		font-size: 16px;

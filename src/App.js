@@ -34,6 +34,13 @@ import Meetteam from './component/Pages/More/Meetteam';
 import Buynft from './component/Pages/More/Buynft';
 import TesseractLtd from './component/Pages/TesseractLtd/TesseractLtd';
 import Visit from './component/Pages/Visit/Visit';
+import Profile from './component/Profile/Profile';
+import IndividualCard from './component/Profile/Sections/IndividualCard/IndividualCard';
+import ProfileSetting from './component/Profile/Sections/ProfileSetting/ProfileSetting';
+import BattleList from './component/Profile/Sections/BattleList/BattleList';
+import RestingCard from './component/Profile/Sections/RestingCard/RestingCard';
+import Warzone from './component/Profile/Sections/Warzone/Warzone';
+import WarBattlefield from './component/Profile/Sections/Warzone/Sections/WarBattlefield/WarBattlefield';
 import Footer from './component/Footer/Footer';
 
 
@@ -75,6 +82,13 @@ class App extends Component {
             <Route exact path='/contact-us' element={< Contact />}></Route>
             <Route exact path='/signin' element={< SignIn />}></Route>
             <Route exact path='/signup' element={< Signup />}></Route>
+            <Route exact path='/profile' element={< Profile />}></Route>
+            <Route exact path='/individual-card' element={< IndividualCard />}></Route>
+            <Route exact path='/profile-setting' element={< ProfileSetting />}></Route>
+            <Route exact path='/battle-list' element={< BattleList />}></Route>
+            <Route exact path='/resting-card' element={< RestingCard />}></Route>
+            <Route exact path='/war-zone' element={< Warzone />}></Route>
+            <Route exact path='/battle-field' element={< WarBattlefield />}></Route>
             <Route exact path='/connect-wallet' element={< ConnectWallet />}></Route>
           </Routes>
           <Footer/>
