@@ -16,7 +16,7 @@ function Blacknet () {
       </ul> 
     </div>
     <div className="content_box">
-<h4>BLACKNET</h4>
+
 <div className="row">
       <div className="col-md-6">
          <div className="card_box">

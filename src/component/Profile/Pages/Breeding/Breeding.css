@@ -1,0 +1,48 @@
+.breeding_section {
+	background-image: url("../Breeding/Images/breeding_banner.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.breeding_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.breeding_section h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 73px;
+    line-height: 92px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.breeding_link a.active {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 12px 0;
+    width: 100%;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.breeding_link a.active:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ff0000;
+}
+.breeding_link a {
+    color: #ffffff;
+    padding: 12px 0;
+    width: 100%;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}

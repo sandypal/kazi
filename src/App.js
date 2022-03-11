@@ -35,12 +35,16 @@ import Buynft from './component/Pages/More/Buynft';
 import TesseractLtd from './component/Pages/TesseractLtd/TesseractLtd';
 import Visit from './component/Pages/Visit/Visit';
 import Profile from './component/Profile/Profile';
-import IndividualCard from './component/Profile/Sections/IndividualCard/IndividualCard';
+import IndividualCard from './component/Profile/Pages/IndividualCard/IndividualCard';
 import ProfileSetting from './component/Profile/Sections/ProfileSetting/ProfileSetting';
-import BattleList from './component/Profile/Sections/BattleList/BattleList';
-import RestingCard from './component/Profile/Sections/RestingCard/RestingCard';
-import Warzone from './component/Profile/Sections/Warzone/Warzone';
-import WarBattlefield from './component/Profile/Sections/Warzone/Sections/WarBattlefield/WarBattlefield';
+import BattleList from './component/Profile/Pages/BattleList/BattleList';
+import RestingCard from './component/Profile/Pages/RestingCard/RestingCard';
+import Warzone from './component/Profile/Pages/Warzone/Warzone';
+import WarBattlefield from './component/Profile/Pages/Warzone/Sections/WarBattlefield/WarBattlefield';
+import WarConfirmation from './component/Profile/Pages/Warzone/Sections/WarConfirmation/WarConfirmation';
+import ConfirmationMessage from './component/Profile/Pages/Warzone/Sections/ConfirmationMessage/ConfirmationMessage';
+import Breeding from './component/Profile/Pages/Breeding/Breeding';
+import BreedSelf from './component/Profile/Pages/Breeding/BreedSelf/BreedSelf';
 import Footer from './component/Footer/Footer';
 
 
@@ -89,6 +93,10 @@ class App extends Component {
             <Route exact path='/resting-card' element={< RestingCard />}></Route>
             <Route exact path='/war-zone' element={< Warzone />}></Route>
             <Route exact path='/battle-field' element={< WarBattlefield />}></Route>
+            <Route exact path='/confirmation' element={< WarConfirmation />}></Route>
+            <Route exact path='/confirmation-message' element={< ConfirmationMessage />}></Route>
+            <Route exact path='/breeding' element={< Breeding />}></Route>
+            <Route exact path='/breed-self' element={< BreedSelf />}></Route>
             <Route exact path='/connect-wallet' element={< ConnectWallet />}></Route>
           </Routes>
           <Footer/>

@@ -4,7 +4,6 @@ import alice from "../../Images/alice.png";
 function Allcards () {
 	return <div>
          <div className="content_box">
-   <h4>ALL CARDS</h4>
    <div className="row">
       <div className="col-md-6">
          <div className="card_box">

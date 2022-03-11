@@ -1,10 +1,10 @@
 import React from 'react';
 import blacknet1 from "../../Images/blacknet1.png";
 import alice from "../../Images/alice.png";
-function Alice () {
+function Genesis () {
 	return <div>
 <div className="scroll_link">
-      <ul>
+<ul>
         <li><a href="#type1">Type 1</a></li>
         <li><a href="#type2">Type 2</a></li>
         <li><a href="#type3">Type 3</a></li>
@@ -16,7 +16,7 @@ function Alice () {
       </ul> 
     </div>
     <div className="content_box">
-<h4>ALICE</h4>
+
 <div className="row">
       <div className="col-md-6">
          <div className="card_box">
@@ -147,7 +147,8 @@ function Alice () {
       </div>
       
    </div>
+     
      </div>
      </div>
      }
-     export default Alice;
+     export default Genesis;

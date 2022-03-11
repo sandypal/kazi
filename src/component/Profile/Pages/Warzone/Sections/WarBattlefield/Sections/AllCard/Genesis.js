@@ -16,7 +16,6 @@ function Genesis () {
       </ul> 
     </div>
     <div className="content_box">
-<h4>GENESIS</h4>
 <div className="row">
       <div className="col-md-6">
          <div className="card_box">
