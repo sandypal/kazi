@@ -28,6 +28,7 @@ import Weaponry from './component/Pages/Guide/Weaponry';
 import CardCollection from './component/Pages/Cardcollection/CardCollection';
 import More from './component/Pages/More/More';
 import Leaderboard from './component/Pages/More/Leaderboard';
+import Ranks from './component/Pages/More/Ranks';
 import Weapons from './component/Pages/More/Weapons';
 import Whitepaper from './component/Pages/More/Whitepaper';
 import Meetteam from './component/Pages/More/Meetteam';
@@ -45,6 +46,19 @@ import WarConfirmation from './component/Profile/Pages/Warzone/Sections/WarConfi
 import ConfirmationMessage from './component/Profile/Pages/Warzone/Sections/ConfirmationMessage/ConfirmationMessage';
 import Breeding from './component/Profile/Pages/Breeding/Breeding';
 import BreedSelf from './component/Profile/Pages/Breeding/BreedSelf/BreedSelf';
+import BreedConfirmation from './component/Profile/Pages/Breeding/BreedConfirmation/BreedConfirmation';
+import BreedOthers from './component/Profile/Pages/Breeding/BreedOthers/BreedOthers';
+import OthersConfirmation from './component/Profile/Pages/Breeding/OthersConfirmation/OthersConfirmation';
+import ConfirmationMsg from './component/Profile/Pages/Breeding/ConfirmationMsg/ConfirmationMsg';
+import Promote from './component/Profile/Pages/Promote/Promote';
+import Confirm from './component/Profile/Pages/Promote/Confirm/Confirm';
+import Congratulations from './component/Profile/Pages/Promote/Congratulations/Congratulations';
+import Mutate from './component/Profile/Pages/Mutate/Mutate';
+import MutateConfirm from './component/Profile/Pages/Mutate/MutateConfirm/MutateConfirm';
+import MutateCongratulations from './component/Profile/Pages/Mutate/MutateCongratulations/MutateCongratulations';
+import Rename from './component/Profile/Pages/Rename/Rename';
+import RenameConfirm from './component/Profile/Pages/Rename/RenameConfirm/RenameConfirm';
+import RenameCongratulations from './component/Profile/Pages/Rename/RenameCongratulations/RenameCongratulations';
 import Footer from './component/Footer/Footer';
 
 
@@ -76,6 +90,7 @@ class App extends Component {
             <Route exact path='/cardcollection' element={< CardCollection />}></Route> 
             <Route exact path='/More' element={< More />}></Route> 
             <Route exact path='/leaderboard' element={< Leaderboard />}></Route>
+            <Route exact path='/ranks' element={< Ranks />}></Route>
             <Route exact path='/weapons' element={< Weapons />}></Route>
             <Route exact path='/whitepaper' element={< Whitepaper />}></Route>
             <Route exact path='/meet-team' element={< Meetteam />}></Route>
@@ -97,6 +112,19 @@ class App extends Component {
             <Route exact path='/confirmation-message' element={< ConfirmationMessage />}></Route>
             <Route exact path='/breeding' element={< Breeding />}></Route>
             <Route exact path='/breed-self' element={< BreedSelf />}></Route>
+            <Route exact path='/breed-confirmation' element={< BreedConfirmation />}></Route>
+            <Route exact path='/breed-others' element={< BreedOthers />}></Route>
+            <Route exact path='/others-confirmation' element={< OthersConfirmation />}></Route>
+            <Route exact path='/confirmation-msg' element={< ConfirmationMsg />}></Route>
+            <Route exact path='/promote' element={< Promote />}></Route>
+            <Route exact path='/confirm' element={< Confirm />}></Route>
+            <Route exact path='/congratulations' element={< Congratulations />}></Route>
+            <Route exact path='/mutate' element={< Mutate />}></Route>
+            <Route exact path='/mutate-confirm' element={< MutateConfirm />}></Route>
+            <Route exact path='/mutate-congratulations' element={< MutateCongratulations />}></Route>
+            <Route exact path='/rename' element={< Rename />}></Route>
+            <Route exact path='/rename-confirm' element={< RenameConfirm />}></Route>
+            <Route exact path='/rename-congratulations' element={< RenameCongratulations />}></Route>
             <Route exact path='/connect-wallet' element={< ConnectWallet />}></Route>
           </Routes>
           <Footer/>

@@ -46,3 +46,63 @@
     font-weight: 600;
     margin-bottom: 40px;
 }
+
+.breedcon_heading h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.breed_succ_text h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FF0000;
+}
+
+.breed_succ_text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-left: 1px solid #ff0000;
+    padding-left: 15px;
+}
+
+.breed_succ_info h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FF0000;
+}
+
+.breed_succ_info {
+    margin-top: 40px;
+}
+
+.breed_succ_info h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.breed_back {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.breed_back a {
+    border: 2px solid #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+}

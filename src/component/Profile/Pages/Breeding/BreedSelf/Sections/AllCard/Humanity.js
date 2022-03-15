@@ -18,136 +18,176 @@ function Humanity () {
     <div className="content_box">
 
 <div className="row">
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={blacknet1}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>BLACKNET</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>TESSERACT INC.</strong></p>
-               </div>
-            </div>
-         </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={blacknet1}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
       </div>
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={alice}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>ALICE</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>USER ID NO.</strong></p>
-               </div>
-            </div>
-         </div>
       </div>
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={blacknet1}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>BLACKNET</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>TESSERACT INC.</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={alice}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>ALICE</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>USER ID NO.</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={blacknet1}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>BLACKNET</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>TESSERACT INC.</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={alice}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>ALICE</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>USER ID NO.</strong></p>
-               </div>
-            </div>
-         </div>
-      </div><div className="col-md-6">
-         <div className="card_box">
-         <img src={blacknet1}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>BLACKNET</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>TESSERACT INC.</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div className="col-md-6">
-         <div className="card_box">
-         <img src={alice}/>
-            <h3>CARD NAME</h3>
-            <div className="card_info">
-               <div className="card_type">
-               <p><strong>ALICE</strong></p>
-               <p><span>CARD TYPE</span></p>
-               </div>
-               <div className="card_rank">
-                  <p>RANK: <strong>PRIVATE</strong></p>
-                  <p>OWNER: <strong>USER ID NO.</strong></p>
-               </div>
-            </div>
-         </div>
-      </div>
-      
    </div>
-     </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={alice}/>
+         <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={blacknet1}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={alice}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={blacknet1}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={alice}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div><div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={blacknet1}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div>
+   <div className="col-md-6">
+      <div className="breeding_lab">
+      <img src={alice}/>
+      <h4>CARD NAME</h4>
+      <h5>Human</h5>
+      <div class="list_box">
+         <ul>
+            <li><span>Rank:</span> Private</li>
+            <li><span>Type:</span> Gen 1</li>
+            <li><span>IQ:</span> 101</li>
+            <li><span>Potential:</span> 101</li>
+            <li><span>EQ:</span> 101</li>
+            <li><span>Wisdom:</span> 101</li>
+            <li><span>Melee:</span> 101</li>
+            <li><span>Leadership:</span> 101</li>
+            <li><span>Weapon:</span> 101</li>
+            <li><span>Feature 9:</span> 101</li>                              
+         </ul>
+      </div>
+      </div>
+   </div>
+   
+</div>
+</div>
      </div>
      }
      export default Humanity;

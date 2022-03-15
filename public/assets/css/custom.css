@@ -44,3 +44,13 @@ img {
     outline: 0;
     box-shadow: none;
 }
+body .form-control:focus {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ff0000;
+    outline: 0;
+    box-shadow: none;
+}
+.enlist_card form {
+    margin: 50px 0;
+}

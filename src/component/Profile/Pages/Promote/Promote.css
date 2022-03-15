@@ -1,0 +1,334 @@
+.promote_section {
+	background-image: url("../Promote/Images/breeding_banner.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.promote_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.promote_section h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 73px;
+    line-height: 92px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.breeding_link a.active {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 12px 0;
+    width: 100%;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.breeding_link a.active:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ff0000;
+}
+.breeding_link a {
+    color: #ffffff;
+    padding: 12px 0;
+    width: 100%;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.breeding_tab h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.breeding_tab p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.breeding_tab p i {
+    color: #ff0000;
+    padding-right: 10px;
+}
+
+.card_tab .nav-tabs {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    border: none;
+    margin: 0 0 50px 0;
+    gap: 20px;
+}
+
+
+.card_tab .nav-tabs .nav-item .nav-link {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+.card_tab .nav-tabs .nav-link.active, .card_tab .nav-tabs .nav-item.show .nav-link {
+    color: #ffffff;
+    background-color: #ff0000;
+    border-color: #ff0000
+	;
+}
+
+
+
+.card_tab p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.custom_tab_text h3 {
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+	font-weight: bold;
+}
+
+.custom_tab_text p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.card_tab .row {
+    row-gap: 40px;
+}
+.card_tab .row {
+    row-gap: 40px;
+}
+.scroll_link {
+    margin-bottom: 40px;
+}
+
+.scroll_link ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.scroll_link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+
+.scroll_link ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.scroll_link ul li a:hover {
+    color: #ff0000;
+}
+
+.content_box {
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0 50px 0 0;
+}
+.custom_tab_text a {
+    border: 2px solid #ff0000;
+    padding: 8px 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.custom_tab_text a:hover {
+    color: #ffffff;
+}
+.content_box.cost_fee_tab {
+    overflow: hidden;
+    height: auto;
+}
+
+.custom_tab_text.cost_fee p {
+    margin: 0 0 5px 0;
+}
+
+.custom_tab_text.cost_fee hr {
+    color: #ff0000;
+    opacity: 1;
+}
+/* width */
+
+.content_box::-webkit-scrollbar {
+	width: 15px;
+}
+
+
+/* Track */
+
+.content_box::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.content_box::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.content_box::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
+
+.card_box h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.card_info {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.card_type p, .card_rank p {
+    text-align: left;
+    margin: 0;
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.card_type p strong, .card_type p span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card_type p span {
+    font-weight: normal;
+}
+
+
+.card_rank p strong, .card_rank p span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card_rank p span {
+    font-weight: normal;
+}
+
+
+.promote_tab h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 31px;
+	color: #ffffff;
+	margin-top: 30px;
+}
+
+.promote_tab h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.promote_tab .list_box {
+	margin-top: 20px;
+}
+
+.promote_tab .list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.promote_tab .list_box ul li span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.promote_tab .list_box ul li {
+	padding: 5px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}
+.promote_btn {
+    margin-top: 40px;
+}
+
+.promote_btn ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 20px;
+}
+
+.promote_btn ul li {
+    text-align: center;
+}
+
+.promote_btn ul li a {
+    border: 2px solid #ff0000;
+    color: #fff;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.card_tab h3 {
+    color: #ff0000;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}

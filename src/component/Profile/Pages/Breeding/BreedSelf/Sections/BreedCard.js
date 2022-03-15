@@ -10,7 +10,7 @@ function BreedCard(){
                <h2>BREED CARDS</h2>
                <ul>
                   <li>
-                     <div className="battle_ready">
+                     <div className="breeding_lab">
                         <div className="upload_img">
                            <div class="image-upload"><label for="file-input"><i class="far fa-plus"></i><br></br>
                               Drag and drop card <br></br>to enter Battle</label><input id="file-input" type="file"/>
@@ -40,14 +40,14 @@ function BreedCard(){
                      </div>
                   </li>
                   <li>
-                     <div className="battle_ready">
+                     <div className="breeding_lab">
                         <div className="upload_img">
                            <div class="image-upload"><label for="file-input"><i class="far fa-plus"></i><br></br>
                               Drag and drop card <br></br>to enter Battle</label><input id="file-input" type="file"/>
                            </div>
                         </div>
                         <h4>CARD NAME</h4>
-                        <h5>BLACKNET</h5>
+                        <h5>Human</h5>
                         <div className="list_box">
                            <ul>
                               <li><span>Rank:</span> Private</li>
@@ -67,7 +67,7 @@ function BreedCard(){
                </ul>
 
                <div className="zone_btn">
-                   <a className="btn" href="#winner">INITIATE BREEDING</a>
+                   <a className="btn" href="/breed-confirmation">INITIATE BREEDING</a>
                    </div>
             </div>
          </div>

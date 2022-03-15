@@ -6,14 +6,12 @@ function CreateBattlefield(){
  return <div>
      <div className="row">
    <div className="col-md-6 offset-md-3">
-       <div className="create_zone">
-   <form>
-    <div className="form-group">
-      <input type="checkbox" id="blacknetalice"/>
-      <label for="blacknetalice">Blacknet VS Alice</label>
-    </div>
-    </form>
-    <ul>
+   <div className="create_zone">
+       <form action="/war-zone">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked/>
+      <label class="form-check-label" for="radio1">Blacknet VS Alice</label>
+      <ul>
             <li><img src={blacknet_logo}/></li>
             <li>
                <div className="war_vs">
@@ -22,15 +20,11 @@ function CreateBattlefield(){
             </li>
             <li><img src={alice_logo}/></li>
          </ul>
-       </div>
-       <div className="create_zone">
-   <form>
-    <div className="form-group">
-      <input type="checkbox" id="blacknethuman"/>
-      <label for="blacknethuman">Blacknet VS Human</label>
     </div>
-    </form>
-    <ul>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"/>
+      <label class="form-check-label" for="radio2">Blacknet VS Human</label>
+      <ul>
             <li><img src={blacknet_logo}/></li>
             <li>
                <div className="war_vs">
@@ -39,15 +33,11 @@ function CreateBattlefield(){
             </li>
             <li><img src={humanity_logo}/></li>
          </ul>
-       </div>
-       <div className="create_zone">
-   <form>
-    <div className="form-group">
-      <input type="checkbox" id="humanalice"/>
-      <label for="humanalice">Human VS Alice</label>
     </div>
-    </form>
-    <ul>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"/>
+      <label class="form-check-label" for="radio3" >Human VS Alice</label>
+      <ul>
             <li><img src={humanity_logo}/></li>
             <li>
                <div className="war_vs">
@@ -56,12 +46,17 @@ function CreateBattlefield(){
             </li>
             <li><img src={alice_logo}/></li>
          </ul>
+    </div>
+    <div className="create_button">
+    <button type="submit" class="btn mt-3">CREATE NEW BATTLEFIELD</button>
+    </div>
+  </form>
+  </div>
+           
        </div>
-       <div className="create_button">
-           <a className="btn" href="#">CREATE NEW BATTLEFIELD</a>
-           </div>
+      
        </div>
-       </div>
+       
      </div>
 
 

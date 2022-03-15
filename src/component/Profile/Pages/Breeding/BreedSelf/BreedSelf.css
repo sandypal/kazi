@@ -62,3 +62,250 @@
     color: #ff0000;
     padding-right: 10px;
 }
+
+.card_tab .nav-tabs {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    border: none;
+    margin: 0 0 50px 0;
+    gap: 20px;
+}
+
+
+.card_tab .nav-tabs .nav-item .nav-link {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+.card_tab .nav-tabs .nav-link.active, .card_tab .nav-tabs .nav-item.show .nav-link {
+    color: #ffffff;
+    background-color: #ff0000;
+    border-color: #ff0000
+	;
+}
+
+.card_tab h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    color: #FF0000;
+}
+
+.card_tab p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.custom_tab_text h3 {
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+	font-weight: bold;
+}
+
+.custom_tab_text p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.card_tab .row {
+    row-gap: 40px;
+}
+.card_tab .row {
+    row-gap: 40px;
+}
+.scroll_link {
+    margin-bottom: 40px;
+}
+
+.scroll_link ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.scroll_link ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+
+.scroll_link ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.scroll_link ul li a:hover {
+    color: #ff0000;
+}
+
+.content_box {
+    overflow-y: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    padding: 0 50px 0 0;
+}
+.custom_tab_text a {
+    border: 2px solid #ff0000;
+    padding: 8px 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.custom_tab_text a:hover {
+    color: #ffffff;
+}
+.content_box.cost_fee_tab {
+    overflow: hidden;
+    height: auto;
+}
+
+.custom_tab_text.cost_fee p {
+    margin: 0 0 5px 0;
+}
+
+.custom_tab_text.cost_fee hr {
+    color: #ff0000;
+    opacity: 1;
+}
+/* width */
+
+.content_box::-webkit-scrollbar {
+	width: 15px;
+}
+
+
+/* Track */
+
+.content_box::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.content_box::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.content_box::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
+
+.card_box h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.card_info {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.card_type p, .card_rank p {
+    text-align: left;
+    margin: 0;
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.card_type p strong, .card_type p span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card_type p span {
+    font-weight: normal;
+}
+
+
+.card_rank p strong, .card_rank p span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card_rank p span {
+    font-weight: normal;
+}
+
+
+.breeding_lab h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF0000;
+	margin-top: 30px;
+}
+
+.breeding_lab h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.breeding_lab .list_box {
+	margin-top: 20px;
+}
+
+.breeding_lab .list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.breeding_lab .list_box ul li span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FF0000;
+}
+
+.breeding_lab .list_box ul li {
+	padding: 5px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}

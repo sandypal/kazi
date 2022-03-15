@@ -14,7 +14,7 @@ function CardTab () {
                   <div className="card_tab">
                   <ul className="nav nav-tabs" id="myTab" role="tablist">
   <li className="nav-item" role="presentation">
-    <button className="nav-link active" id="allcards-tab" data-bs-toggle="tab" data-bs-target="#allcards" type="button" role="tab" aria-controls="allcards" aria-selected="true">ALL CARDS</button>
+    <button className="nav-link active" id="allcards-tab" data-bs-toggle="tab" data-bs-target="#allcards" type="button" role="tab" aria-controls="allcards" aria-selected="true">ALL</button>
   </li>
   <li className="nav-item" role="presentation">
     <button className="nav-link" id="blacknet-tab" data-bs-toggle="tab" data-bs-target="#blacknet" type="button" role="tab" aria-controls="blacknet" aria-selected="false">BLACKNET</button>

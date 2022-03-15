@@ -59,12 +59,12 @@ function Nav () {
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                  <hr></hr>
-                                 <li><Link className="dropdown-item" to="#">Breeding Lab</Link></li>
+                                 <li><Link className="dropdown-item" to="/breeding">Breeding Lab</Link></li>
                                  <li><Link className="dropdown-item" to="/battle-list">Battle list</Link></li>
-                                 <li><Link className="dropdown-item" to="war-zone">War zone</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Promote cards</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Mutate cards</Link></li>
-                                 <li><Link className="dropdown-item" to="#">Rename cards</Link></li>
+                                 <li><Link className="dropdown-item" to="/war-zone">War zone</Link></li>
+                                 <li><Link className="dropdown-item" to="/promote">Promote cards</Link></li>
+                                 <li><Link className="dropdown-item" to="/mutate">Mutate cards</Link></li>
+                                 <li><Link className="dropdown-item" to="/rename">Rename cards</Link></li>
                                  <hr></hr>
                                  </ul>
                            </li>

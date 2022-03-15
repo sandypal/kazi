@@ -13,6 +13,10 @@ function LeaderboardList () {
                      LEADERBOARD</Link>
                   </li>
                   <li className="nav-item">
+                     <Link className="nav-link" to="/ranks">
+                     RANKS</Link>
+                  </li>
+                  <li className="nav-item">
                      <Link className="nav-link" to="/weapons">
                      WEAPONS’ LIST</Link>
                   </li>
