@@ -106,3 +106,113 @@
     padding: 10px 20px;
     width: 100%;
 }
+
+.battle_zone {
+	margin-top: 70px;
+}
+
+.battle_zone_box ul {
+	display: grid;
+	grid-template-columns: 5fr 1fr 5fr;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list_box {
+	margin-top: 20px;
+}
+
+.battle_zone_box .list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.battle_zone_box .list_box ul li span {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FF0000;
+}
+
+.battle_zone_box .list_box ul li {
+	padding: 5px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.battle_vs {
+    width: 120px;
+    text-align: center;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    height: 120px;
+    margin: 170px auto;
+}
+
+.battle_vs strong {
+	color: #ff0000;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 120px;
+}
+
+.upload_img .image-upload {
+    padding: 160px 0;
+}
+
+.upload_img {
+	text-align: center;
+	border: 2px dashed #ffffff;
+}
+
+.upload_img .image-upload i {
+	font-size: 80px;
+}
+
+.upload_img .image-upload label {
+	font-size: 20px;
+}
+
+.upload_img .image-upload>input {
+	display: none;
+}
+
+.battle_zone_box h2 {
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 80px;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 15px #000000;
+	margin: 20px 0 40px;
+}
+
+.zone_btn {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.zone_btn a {
+	background: #ff0000;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 40px;
+	border: 2px solid #ff0000;
+}
+
+.zone_btn a:hover {
+	background: transparent;
+	border: 2px solid #ff0000;
+}

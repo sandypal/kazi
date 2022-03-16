@@ -104,9 +104,8 @@
 }
 
 header.header_section {
-	padding: 20px 0;
+    padding: 15px 0;
 }
-
 header.header_section a.navbar-brand {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -191,12 +190,12 @@ li.nav-item.login_btn a:hover {
     height: 1px;
 }
 .header_section .dropdown-menu li {
-    padding: 0;
+    padding: 0 15px;
 }
 .header_section .dropdown-menu li a {
     padding: 5px 0;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1500px) {
 	.header_section ul li {
 		padding: 0 0px;
 		margin: 0 8px 0 0;
@@ -206,6 +205,19 @@ li.nav-item.login_btn a:hover {
 		font-weight: 500;
 		font-family: 'Chakra Petch', sans-serif;
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 1350px) {
+	.header_section ul li a {
+		font-size: 11px;
+	}
+	.header_section ul li {
+		padding: 0 0px;
+		margin: 0 -2px 0 0;
+	}
+	.login_btn a {
+		margin: 0 10px 0 0;
 	}
 }
 @media (max-width: 1199px) {

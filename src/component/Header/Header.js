@@ -54,7 +54,7 @@ function Nav () {
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="#">
+                              <Link className="nav-link dropdown-toggle" to="profile">
                               Play
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -116,15 +116,17 @@ function Nav () {
                            <li className="nav-item signup_btn">
                               <Link className="nav-link" to="/signup">Sign Up</Link>
                            </li>
-                           {/* <li className="nav-item dropdown profile_menu">
+                           <li className="nav-item dropdown profile_menu">
                               <Link className="nav-link dropdown-toggle" to="/profile">
                               <img className="rounded-circle header-profile-user" src={avatar} />
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <hr></hr>
                                  <li><Link className="dropdown-item" to="/profile-setting"> Account settings</Link></li>
                                  <li><Link className="dropdown-item" to="/signin">Logout</Link></li>
+                                 <hr></hr>
                               </ul>
-                           </li> */}
+                           </li>
                           
                            {/* <div className="search_box">
                            <div className="search-toggle">

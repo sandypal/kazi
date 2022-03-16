@@ -32,7 +32,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -51,7 +51,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -70,7 +70,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -89,7 +89,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -108,7 +108,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -127,7 +127,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -146,7 +146,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>
@@ -165,7 +165,7 @@ function Genesis () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/mutate-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/mutate-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/mutate-confirm">MUTATE</a></li>
             </ul>
          </div>
          </div>

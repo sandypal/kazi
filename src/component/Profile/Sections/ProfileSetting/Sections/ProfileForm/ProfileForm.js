@@ -9,14 +9,14 @@ function ProfileForm () {
                      <h2>CHANGE USERNAME</h2>
                      <form action="/profile">
                      <div className="row">
-                        <div className="col">
+                        <div className="col-md-6">
                         <div className="form-group mb-3">
                         <label>Current username*</label>
                                 <input type="text" className="form-control" aria-label="Current username*"/>
                             </div>
                             </div>
 
-                            <div class="col">
+                            <div class="col-md-6">
                             <div className="form-group mb-3">
                             <label>New username*</label>
                                 <input type="text" className="form-control" aria-label="New username*"/>
@@ -24,14 +24,14 @@ function ProfileForm () {
                             </div>
                         </div>
                         <div className="row">
-                        <div className="col">
+                        <div className="col-md-6">
                         <div className="form-group mb-3">
                         <label>User ID*</label>
                                 <input type="text" className="form-control" aria-label="User ID*"/>
                             </div>
                             </div>
                             
-                            <div class="col">
+                            <div class="col-md-6">
                             <div className="form-group mb-3">
                             <label>Confirm username*</label>
                                 <input type="text" className="form-control" aria-label="Confirm username*"/>
@@ -88,14 +88,14 @@ function ProfileForm () {
                      <h2>ACCOUNT DEACTIVATION</h2>
                      <form action="/profile">
                      <div className="row">
-                        <div className="col">
+                        <div className="col-md-6">
                         <div className="form-group mb-3">
                         <label>User ID*</label>
                                 <input type="text" className="form-control" aria-label="user id*"/>
                             </div>
                             </div>
 
-                            <div class="col">
+                            <div class="col-md-6">
                             <div className="form-group mb-3">
                             <label>Password*</label>
                                 <input type="password*" className="form-control" aria-label="Password*"/>

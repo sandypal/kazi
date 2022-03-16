@@ -20,7 +20,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -39,7 +39,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -58,7 +58,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -77,7 +77,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -96,7 +96,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -115,7 +115,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -134,7 +134,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>
@@ -153,7 +153,7 @@ function Allcards () {
          <div className="promote_btn">
             <ul>
                <li><a className="btn" href="/rename-confirm">CARD DETAILS</a></li>
-               <li><a className="btn" href="/rename-confirm">PROMOTE</a></li>
+               <li><a className="btn" href="/rename-confirm">RENAME</a></li>
             </ul>
          </div>
          </div>

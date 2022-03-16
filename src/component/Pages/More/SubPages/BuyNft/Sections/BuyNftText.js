@@ -9,7 +9,7 @@ function BuyNftText () {
                   <div className="buynft_text_section">
                   <h2 className="text-center">BUY NFTs</h2>
                 <p>Enter the world of EXTREMIS and get the experience of collecting cards, upgrading them and battling them against other players. Here, you chase for the truth: either choosing for Humanity or Blacknet or Alice, build your own army and make allies to defeat the enemy. Breed your cards to gain ultimate powers to eliminate the last card of your opponent and seize the trophy!</p>
-                <a className="btn" href="/tesseract-ltd">BROWSE AT OPENSEA</a>
+                <a className="btn" href="/tesseract-ltd">BROWSE AT AUCTION HOUSE</a>
                    </div>
                </div>
             </div>
