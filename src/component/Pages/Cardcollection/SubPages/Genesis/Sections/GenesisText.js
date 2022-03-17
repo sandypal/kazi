@@ -1,8 +1,11 @@
 import React from 'react';
 import blacknet from "../Images/blacknet.png";
 import alice from "../Images/alice.png";
-function Humanity () {
+function GenesisText () {
 	return <div>
+       <div className="container">
+      <div className="row">
+          <div className="col-md-10 offset-md-1">
 <div className="scroll_link">
 <ul>
         <li><a href="#type1">Type 1</a></li>
@@ -16,7 +19,7 @@ function Humanity () {
       </ul> 
     </div>
     <div className="content_box">
-<h4>HUMANITY</h4>
+<h4>GENESIS</h4>
 <div className="row">
       <div className="col-md-6">
          <div className="card_box">
@@ -147,7 +150,11 @@ function Humanity () {
       </div>
       
    </div>
+     
+     </div>
+     </div>
+     </div>
      </div>
      </div>
      }
-     export default Humanity;
+     export default GenesisText;

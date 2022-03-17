@@ -44,7 +44,7 @@ export default function BuildArmy() {
                         <div className="col-md-6"><img src={fight_battles}/></div>
                         <div className="col-md-6">
                            <h2>FIGHT BATTLES</h2>
-                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           <p>Hone your skills to plan the winning strategies. Buy and breed more cards, to choose the most advantageous cards over your opponents' team. Use your cards in the battles strategically to earn maximum wins and rank upgrades.</p>
                            <div className="build_army">
                   <ul>
                      <li><a href="#">LEARN MORE</a></li>
@@ -58,7 +58,7 @@ export default function BuildArmy() {
                         <div className="col-md-6"><img src={earn_money}/></div>
                         <div className="col-md-6">
                            <h2>EARN FROM WAR</h2>
-                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           <p>Earn money by breeding and selling cards on the EXTREMIS Marketplace.  You can also put up your power cards up for breeding and in turn get the breed fee everytime another player breeds with your card.</p>
                            <div className="build_army">
                   <ul>
                      <li><a href="#">LEARN MORE</a></li>

@@ -27,14 +27,19 @@ function GamefeaturesText () {
        <div className="col-md-6">
          <div className="custom_tab_text" id="purchase">
          <h3>Purchase cards</h3>
-         <p>Enter the world of EXTREMIS and get the experience of collecting cards, upgrading them and battling them against other players. Here, you chase for the truth: either choosing for Humanity or Blacknet or Alice, build your own army and make allies to defeat the enemy. Breed your cards to gain ultimate powers to eliminate the last card of your opponent and seize the trophy!</p>
+         <p>After signing up and setting up your profile, purchase your first card through the EXTREMIS ‘Marketplace’ or ‘Auction house’ to begin playing. Browse through all the cards on sale. You can buy any cards at a fixed rate in the ‘Marketplace’. Whereas the ’Auction house’ enables you to bid on cards. The highest bidder gets the card. You can start with only one card in your collection. But you may also buy multiple cards to advance in the game more strategically.</p>
          </div>
        </div>
        <div className="col-md-6"><img src={blacknet}/></div>
        <div className="col-md-6">
        <div className="custom_tab_text" id="breed">
          <h3>Breed cards</h3>
-         <p>Enter the world of EXTREMIS and get the experience of collecting cards, upgrading them and battling them against other players. Here, you chase for the truth: either choosing for Humanity or Blacknet or Alice, build your own army and make allies to defeat the enemy. Breed your cards to gain ultimate powers to eliminate the last card of your opponent and seize the trophy!</p>
+         <p>Players can breed their cards to make newer cards with a variety of attribute values and feature rarity. New cards also grow your collection thus enabling you to sell cards in the future or enlist them for combat. The users are allowed to breed cards within their collection or other players’ cards as well. However, breeding is only allowed between cards of the same faction. In case of Human, players can only breed between opposite genders.</p>
+         </div>
+       </div>
+       <div className="row">
+         <div className="col-md-12">
+ffsdfddsdfdfdfddfdfdfdfdfdfdffdsggfddffdfdfdfsdsgfdsgdfsgdhshhdjdjgdgafghdshdfhdhdhdfhfhf
          </div>
        </div>
        <div className="col-md-6"><img src={alice}/></div>

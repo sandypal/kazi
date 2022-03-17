@@ -1,8 +1,8 @@
 import React from 'react';
-import blacknet_logo from "./Images/blacknet_logo.png";
-import alice_logo from "./Images/alice_logo.png";
-import humanity_logo from "./Images/humanity_logo.png";
-function CollectionBanner () {
+import blacknet_logo from "../Images/blacknet_logo.png";
+import alice_logo from "../Images/alice_logo.png";
+import humanity_logo from "../Images/humanity_logo.png";
+function Blacknetbanner () {
 	return <div>
 <div className="Page_card_section">
    <div className="container">
@@ -60,4 +60,4 @@ function CollectionBanner () {
 </div>
     </div>
 }
-export default CollectionBanner;
+export default Blacknetbanner;

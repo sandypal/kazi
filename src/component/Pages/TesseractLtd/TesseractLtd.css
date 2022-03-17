@@ -48,7 +48,56 @@
     color: #FFFFFF;
     padding: 8px 40px;
 }
+.roadmap_heading h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
 
+.roadmap_box {
+    overflow-y: scroll;
+
+    height: 500px;
+    padding: 0 20px 0 0;
+   
+}
+
+/* width */
+
+.roadmap_box::-webkit-scrollbar {
+	width: 15px;
+}
+.roadmap_box {
+    scrollbar-width: thin;
+      scrollbar-color: #ff0000 rgb(202, 202, 202);
+      
+    }
+
+/* Track */
+
+.roadmap_box::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.roadmap_box::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.roadmap_box::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
 @media (max-width: 767px) {
 	.Page_tesseract_section {
 		text-align: center;

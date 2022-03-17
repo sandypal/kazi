@@ -17,7 +17,7 @@ function Footer () {
          <div className="col-md-4 col-xl-2">
             <div className="footer_menu">
             <ul>
-               <li><Link to="#">My Profile</Link></li>
+               <li><Link to="/profile">My Profile</Link></li>
                <li><Link to="#">Blog</Link></li>
                <li><Link to="#">Gameplay Guide</Link></li>
                <li><Link to="/faq">FAQS</Link></li>

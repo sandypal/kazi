@@ -26,6 +26,10 @@ import Gettingstarted from './component/Pages/Guide/Gettingstarted';
 import Marketplace from './component/Pages/Guide/Marketplace';
 import Weaponry from './component/Pages/Guide/Weaponry';
 import CardCollection from './component/Pages/Cardcollection/CardCollection';
+import AliceCard from './component/Pages/Cardcollection/AliceCard';
+import BlacknetCard from './component/Pages/Cardcollection/BlacknetCard';
+import GenesisCard from './component/Pages/Cardcollection/GenesisCard';
+import HumanityCard from './component/Pages/Cardcollection/HumanityCard';
 import More from './component/Pages/More/More';
 import Leaderboard from './component/Pages/More/Leaderboard';
 import Ranks from './component/Pages/More/Ranks';
@@ -87,7 +91,11 @@ class App extends Component {
             <Route exact path='/getting-started' element={< Gettingstarted />}></Route> 
             <Route exact path='/market-place' element={< Marketplace />}></Route> 
             <Route exact path='/weaponry' element={< Weaponry />}></Route>  
-            <Route exact path='/cardcollection' element={< CardCollection />}></Route> 
+            <Route exact path='/cardcollection' element={< CardCollection />}></Route>
+            <Route exact path='/alice-card' element={< AliceCard />}></Route>
+            <Route exact path='/blacknet-card' element={< BlacknetCard />}></Route>
+            <Route exact path='/genesis-card' element={< GenesisCard />}></Route>
+            <Route exact path='/humanity-card' element={< HumanityCard />}></Route>
             <Route exact path='/More' element={< More />}></Route> 
             <Route exact path='/leaderboard' element={< Leaderboard />}></Route>
             <Route exact path='/ranks' element={< Ranks />}></Route>

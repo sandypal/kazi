@@ -1,11 +1,26 @@
 import React from 'react';
 import blacknet from "../Images/blacknet.png";
 import alice from "../Images/alice.png";
-function Allcards () {
+function HumanityText () {
 	return <div>
-         <div className="content_box">
-   <h4>ALL CARDS</h4>
-   <div className="row">
+       <div className="container">
+      <div className="row">
+          <div className="col-md-10 offset-md-1">
+<div className="scroll_link">
+<ul>
+        <li><a href="#type1">Type 1</a></li>
+        <li><a href="#type2">Type 2</a></li>
+        <li><a href="#type3">Type 3</a></li>
+        <li><a href="#type4">Type 4</a></li>
+        <li><a href="#type5">Type 5</a></li>
+        <li><a href="#type6">Type 6</a></li>
+        <li><a href="#type7">Type 7</a></li>
+        <li><a href="#type8">Type 8</a></li>
+      </ul> 
+    </div>
+    <div className="content_box">
+<h4>HUMANITY</h4>
+<div className="row">
       <div className="col-md-6">
          <div className="card_box">
          <img src={blacknet}/>
@@ -135,7 +150,10 @@ function Allcards () {
       </div>
       
    </div>
-</div>
+     </div>
+     </div>
+     </div>
+     </div>
      </div>
      }
-     export default Allcards;
+     export default HumanityText;

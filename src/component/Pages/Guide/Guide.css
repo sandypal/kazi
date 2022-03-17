@@ -43,8 +43,7 @@ html {
 .guide_menu_list ul .nav-link.active, .guide_menu_list ul .nav-item.show .nav-link {
     color: #ffffff;
     background-color: #ff0000;
-    border-color: #ff0000
-	;
+    border-color: #ff0000;
 }
 
 .guide_tab h4 {

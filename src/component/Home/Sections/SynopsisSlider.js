@@ -37,7 +37,7 @@ export default function SynopsisSlider() {
                         <div className="col-md-6"><img src={collect_cards}/></div>
                         <div className="col-md-6">
                            <h2>COLLECT CARDS</h2>
-                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           <p>As soon as you connect your wallet and log in to your Extremis account, buy your first cards from the auction house or the fixed marketplace within EXTREMIS. Having cards allow you to engage in battles, war and breed your cards. You can begin with a single card initially.</p>
                            <a className="play_byn btn" href="/cardcollection">SEE CARDS</a>
                         </div>
                      </div>

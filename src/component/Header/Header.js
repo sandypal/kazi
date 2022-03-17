@@ -46,10 +46,11 @@ function Nav () {
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                               <hr></hr>
-                                 <li><Link className="dropdown-item" to="#">All cards</Link></li>
-                                 <li><Link className="dropdown-item" to="/blacknet">Blacknet</Link></li>
-                                 <li><Link className="dropdown-item" to="/alice">Alice</Link></li>
-                                 <li><Link className="dropdown-item" to="/humanity">Humanity</Link></li>
+                                 <li><Link className="dropdown-item" to="/cardcollection">All cards</Link></li>
+                                 <li><Link className="dropdown-item" to="/blacknet-card">Blacknet</Link></li>
+                                 <li><Link className="dropdown-item" to="/alice-card">Alice</Link></li>
+                                 <li><Link className="dropdown-item" to="/humanity-card">Humanity</Link></li>
+                                 <li><Link className="dropdown-item" to="/genesis-card">Genesis</Link></li>
                                  <hr></hr>
                               </ul>
                            </li>

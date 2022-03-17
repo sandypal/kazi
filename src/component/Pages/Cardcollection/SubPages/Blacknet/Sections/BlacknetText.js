@@ -1,9 +1,12 @@
 import React from 'react';
 import blacknet from "../Images/blacknet.png";
 import alice from "../Images/alice.png";
-function Blacknet () {
+function BlacknetText () {
 	return <div>
-          <div className="scroll_link">
+       <div className="container">
+      <div className="row">
+          <div className="col-md-10 offset-md-1">
+<div className="scroll_link">
       <ul>
         <li><a href="#type1">Type 1</a></li>
         <li><a href="#type2">Type 2</a></li>
@@ -149,5 +152,8 @@ function Blacknet () {
    </div>
      </div>
      </div>
+     </div>
+     </div>
+     </div>
      }
-     export default Blacknet;
+     export default BlacknetText;

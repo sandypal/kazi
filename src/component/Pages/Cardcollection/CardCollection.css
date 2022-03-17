@@ -4,7 +4,7 @@ html {
 
 
 .Page_card_section {
-	background-image: url("../Cardcollection/Sections/Images/card_collection_header.png");
+	background-image: url("../Cardcollection/Images/card_collection_header.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -272,11 +272,42 @@ html {
 .battle_proess .progress .progress-bar {background-color: #f00;}
 
 
-
-
-
-
-
+.cards_menu_list ul {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr; 
+    border: none;
+    margin: 0 0 50px 0;
+    gap: 20px;
+}
+.cards_menu_list .nav_menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.cards_menu_list ul .nav-item .nav-link {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+.cards_menu_list ul .nav-link.active, .cards_menu_list ul .nav-item.show .nav-link {
+    color: #ffffff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+.content_box h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: normal;
+    text-align: left;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+.card_box {
+    margin-bottom: 40px;
+}
 @media (max-width: 1199px) {
 .card_tab .nav-tabs .nav-item .nav-link {
      font-size: 14px;
