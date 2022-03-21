@@ -221,6 +221,12 @@ li.nav-item.login_btn a:hover {
 	}
 }
 @media (max-width: 1199px) {
+	.header_section .navbar-expand-xl .navbar-nav {
+		align-items: flex-start;
+	}
+	li.nav-item.login_btn {
+		margin: 12px 0;
+	}
 	.header_section .navbar-light .navbar-toggler-icon {
 		background-image: none;
 		height: 35px !important;

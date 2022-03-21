@@ -179,6 +179,10 @@
         bottom: 40px;
         left: 23%;
     }
+    .profile_set_section h1 {
+        font-size: 32px;
+        
+    }
 }
 @media (max-width: 480px) {
     .edit_icon i {

@@ -212,7 +212,25 @@
 	background: transparent;
 	border: 2px solid #ff0000;
 }
+.add_battle_btn {
+	margin-top: 40px;
+}
+.add_battle_btn a {
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    text-decoration: none;
+}
 
+.add_battle_btn a:hover {
+	background: transparent;
+	border: 2px solid #ff0000;
+	color: #ffffff;
+}
 
 /* width */
 
@@ -246,4 +264,52 @@
 
 .Battle_Box::-webkit-scrollbar-thumb:hover {
 	background: #b30000;
+}
+@media (max-width: 991px) {
+.battle_zone_box .list_box ul li {
+    font-size: 16px;}
+	.battle_zone_box .list_box ul li span {
+		font-size: 16px;}
+}
+@media (max-width: 767px) {
+	.battle_section{
+		text-align: center;
+		padding: 80px 0;
+	}
+	.battle_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	.battle_zone_box ul {
+		grid-template-columns: 5fr;
+	}
+	.battle_content_section .row {
+		row-gap: 60px;
+	}
+	.Battle_Box {
+		padding: 0 20px 0 0;
+	}
+	.battle_zone_box h2 {
+		font-size: 35px;
+	}	
+	.battle_zone_box .list_box ul li {
+		font-size: 16px;
+	}
+	.battle_zone_box .list_box ul li span {
+		font-size: 16px;
+	}
+.battle_vs {
+    margin: 70px auto;
+}
+.upload_img .image-upload {
+    padding: 100px 0;
+}
+.list_box ul li span {
+    font-size: 14px;
+    
+}
+.list_box ul li{
+    font-size: 14px;
+    
+}
 }

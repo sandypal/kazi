@@ -11,100 +11,102 @@
 }
 
 .breeding_section h1 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 73px;
-    line-height: 92px;
-    text-align: center;
-    color: #ffffff;
-    font-family: 'Chakra Petch', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Chakra Petch', sans-serif;
 }
 
 .breeding_link a.active {
-    background-color: #ff0000;
-    color: #ffffff;
-    padding: 12px 0;
-    width: 100%;
-    border: 2px solid #ff0000;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 40px;
+	background-color: #ff0000;
+	color: #ffffff;
+	padding: 12px 0;
+	width: 100%;
+	border: 2px solid #ff0000;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 40px;
 }
+
 .breeding_link a.active:hover {
-    background-color: #000000;
-    color: #ffffff;
-    border: 2px solid #ff0000;
+	background-color: #000000;
+	color: #ffffff;
+	border: 2px solid #ff0000;
 }
+
 .breeding_link a {
-    color: #ffffff;
-    padding: 12px 0;
-    width: 100%;
-    border: 2px solid #ff0000;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 40px;
+	color: #ffffff;
+	padding: 12px 0;
+	width: 100%;
+	border: 2px solid #ff0000;
+	border-radius: 8px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 40px;
 }
 
 .breedcon_heading h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 50px;
-    color: #FFFFFF;
-    margin-bottom: 40px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
 }
 
 .breed_succ_text h3 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 45px;
-    line-height: 50px;
-    color: #FF0000;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	color: #FF0000;
 }
 
 .breed_succ_text p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
-    border-left: 1px solid #ff0000;
-    padding-left: 15px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+	border-left: 1px solid #ff0000;
+	padding-left: 15px;
 }
 
 .breed_succ_info h4 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 31px;
-    color: #FF0000;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF0000;
 }
 
 .breed_succ_info {
-    margin-top: 40px;
+	margin-top: 40px;
 }
 
 .breed_succ_info h5 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 31px;
-    color: #FFFFFF;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FFFFFF;
 }
 
 .breed_back {
-    text-align: center;
-    width: 100%;
-    margin-top: 30px;
+	text-align: center;
+	width: 100%;
+	margin-top: 30px;
 }
 
 .breed_back a {
-    border: 2px solid #ff0000;
-    color: #fff;
-    padding: 10px 20px;
-    width: 100%;
+	border: 2px solid #ff0000;
+	color: #fff;
+	padding: 10px 20px;
+	width: 100%;
 }
 
 .battle_zone {
@@ -150,12 +152,12 @@
 }
 
 .battle_vs {
-    width: 120px;
-    text-align: center;
-    border: 2px solid #ff0000;
-    border-radius: 50%;
-    height: 120px;
-    margin: 170px auto;
+	width: 120px;
+	text-align: center;
+	border: 2px solid #ff0000;
+	border-radius: 50%;
+	height: 120px;
+	margin: 170px auto;
 }
 
 .battle_vs strong {
@@ -167,7 +169,7 @@
 }
 
 .upload_img .image-upload {
-    padding: 160px 0;
+	padding: 160px 0;
 }
 
 .upload_img {
@@ -215,4 +217,77 @@
 .zone_btn a:hover {
 	background: transparent;
 	border: 2px solid #ff0000;
+}
+
+@media (max-width: 991px) {
+	.battle_zone_box .list_box ul li {
+		font-size: 14px;
+	}
+	.battle_zone_box .list_box ul li span {
+		font-size: 14px;
+	}
+	.breeding_lab .list_box ul li span {
+		font-size: 14px;
+	}
+	.breeding_lab .list_box ul li {
+		font-size: 14px;
+	}
+    .battle_zone {
+        margin-top: 0;
+    }
+	.card_tab .nav-tabs {
+		display: grid;
+		grid-template-columns: 5fr 5fr 5fr;
+		border: none;
+		margin: 0 0 50px 0;
+		gap: 20px;
+	}
+    .upload_img .image-upload {
+        padding: 100px 0;
+    }
+    .battle_vs {
+        margin: 100px auto;
+    }
+}
+
+@media (max-width: 767px) {
+	.breeding_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.breeding_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+	.battle_zone_box ul {
+		grid-template-columns: 5fr;
+	}
+	.battle_content_section .row {
+		row-gap: 60px;
+	}
+	.Battle_Box {
+		padding: 0 20px 0 0;
+	}
+	.battle_zone_box h2 {
+		font-size: 35px;
+	}
+	.battle_zone_box .list_box ul li {
+		font-size: 16px;
+	}
+	.battle_zone_box .list_box ul li span {
+		font-size: 16px;
+	}
+	.battle_vs {
+		margin: 70px auto;
+	}
+	.upload_img .image-upload {
+		padding: 100px 0;
+	}
+    .breed_succ_text h3 {
+        font-size: 35px;
+        
+    }
+    .breedcon_heading h2 {
+        font-size: 32px;
+    }
 }

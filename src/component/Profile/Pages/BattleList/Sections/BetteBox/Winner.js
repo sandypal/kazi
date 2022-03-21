@@ -34,6 +34,9 @@ function Winner(){
               <li><span>Feature 9:</span> 101</li>
           </ul>
           </div>
+          <div className="add_battle_btn">
+<a href="#">ADD TO BATTLE LIST</a>
+          </div>
                    </div>
                    </div>
                    </div>

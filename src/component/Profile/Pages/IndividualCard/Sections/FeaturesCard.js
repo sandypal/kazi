@@ -68,12 +68,12 @@ function FeaturesCard(){
                     <div className="features_tab">
                         <ul>
                             <li><a href="/battle-list">ADD TO BATTLE LIST</a></li>
-                            <li><a href="#">ADD FOR BREEDING</a></li>
-                            <li><a href="#">RENAME CARD</a></li>
+                            <li><a href="/breeding">ADD FOR BREEDING</a></li>
+                            <li><a href="/rename">RENAME CARD</a></li>
                             <li><a href="/resting-card">REST CARD</a></li>
-                            <li><a href="#">PROMOTE</a></li>
-                            <li><a href="#">MUTATE</a></li>
-                            <li><a href="/war-zone">JOIN WAR</a></li>
+                            <li><a href="/promote">PROMOTE</a></li>
+                            <li><a href="/mutate">MUTATE</a></li>
+                            <li><a href="/war-zone">JOIN WAR</a></li> 
                             <li><a href="#">SELL</a></li>
                             <li><a href="#">AUCTION</a></li>
                             

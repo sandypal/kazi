@@ -336,3 +336,65 @@
 .breed_box::-webkit-scrollbar-thumb:hover {
 	background: #b30000;
 }
+@media (max-width: 991px) {
+.breed_box {
+    padding: 0 10px 0 0;
+}
+.breed_zone_box .upload_img .image-upload {
+    padding: 100px 0;
+}
+.breed_zone_box .breed_ready .list_box ul li{
+    font-weight: 500;
+    font-size: 14px;
+}
+.breed_zone_box .breed_ready .list_box ul li span{
+    font-weight: 500;
+    font-size: 14px;
+}
+}
+@media (max-width: 767px) {
+	.breeding_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.breeding_section h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.breed_zone_box ul {
+		grid-template-columns: 5fr;
+	}
+	section.breeding_content .row {
+		row-gap: 60px;
+	}
+	.breed_box {
+		padding: 0 20px 0 0;
+	}
+	.breed_cards_heading h2 {
+		font-size: 35px;
+	}
+	.breed_ready .list_box ul li {
+		font-size: 14px;
+	}
+	.breed_ready .list_box ul li span {
+		font-size: 14px;
+	}
+    .breed_other .list_box ul li {
+		font-size: 14px;
+	}
+    .breed_other .list_box ul li span {
+		font-size: 14px;
+	}
+	.breed_vs {
+		margin: 70px auto;
+	}
+	.breed_zone_box .upload_img .image-upload {
+		padding: 100px 0;
+	}
+}
+@media (max-width: 420px) {
+.card_tab .nav-tabs {
+    grid-template-columns: 5fr 5fr;
+    
+}
+}
