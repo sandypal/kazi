@@ -55,12 +55,17 @@
     margin: 0;
 }
 
-.user_tab ul {
+.user_tab .nav-tabs {
     text-align: center;
     align-items: center;
     justify-content: center;
     border-bottom: none;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    border: none;
+    margin: 0 0 50px 0;
+    gap: 20px;
+    list-style: none;
 }
 
 .user_tab .nav-tabs .nav-link.active, .user_tab .nav-tabs .nav-item.show .nav-link {
@@ -68,7 +73,7 @@
     background-color: #ff0000;
     border-color: #ff0000 #ff0000 #ff0000;
     border-radius: 8px;
-    padding: 10px 50px;
+    width: 100%;
     font-size: 16px;
 }
 .user_tab .nav-tabs .nav-link:hover, .user_tab .nav-tabs .nav-link:focus {
@@ -84,9 +89,11 @@
     border: 1px solid #ff0000;
     border-radius: 8px;
     color: #fff;
-    padding: 10px 50px;
+    width: 100%;
 }
-
+.card_link {
+    margin-top: 30px;
+}
 
 
 .profile_tab_content {
@@ -237,11 +244,33 @@
 .profile_tab_content {
     padding: 0 10px 0 0;
 }
+.profile_type ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.profile_type ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+}
+.profile_card_info h3 {
+    font-size: 25px;
+    
+}
 }
 @media (max-width: 991px) {
 .card_link ul li a {
     padding: 10px 40px;
     font-size: 16px;
+}
+
+.user_tab .nav-tabs {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    border: none;
+    margin: 0 0 50px 0;
+    gap: 20px;
 }
 .card_link ul {
     grid-template-columns: 6fr;
@@ -309,10 +338,15 @@
     .profile_type ul li {
         list-style: none;
         display: inline-block;
-        padding: 6px 10px;
+        padding: 6px 5px;
     }
     }
-
+    @media (max-width: 650px) {
+        .user_tab .nav-tabs{
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+    }
+}
     @media (max-width: 480px) {
         .card_link ul li a {
             padding: 10px 40px;

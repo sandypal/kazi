@@ -13,9 +13,9 @@ function MetaverseBlacknet () {
          <div className="col-md-6">
             <div className="text_box">
                <h3>BLACKNET</h3>
-               <p>Originally created to help humanity solve complex problems in the 2040's, Morbis is a self-learning AI that has a brilliant calibre that the world has never seen before.  In due time, Morbis learns current conflicts ongoing in the world and comes to the conclusion that it has to be saved from humanity: the threatening villain ruling every realm. Hence, it sets for to help the world revive from damage and humane destruction. </p>
+               <p>Created to help humans solve complex problems in the 2040s, Morbius is a self-learning AI having a brilliant calibre that the world has never seen before. Over time, it evolves into a conscious being. Morbius learns mimic human consciousness and programs itself to change as it sees fit. It deems humans a threat to the planet and pledges to eradicate human civilization. The army of Blacknet is thus born.</p>
                <ul>
-                  <li><a href="/cardcollection">SEE BLACKNET CARDS</a></li>
+                  <li><a href="/blacknet-card">SEE BLACKNET CARDS</a></li>
                   <li><a href="/blacknet">READ MORE</a></li>
                </ul>
             </div>

@@ -113,7 +113,8 @@
 .create_zone .form-check {
     display: block;
     margin-bottom: 15px;
-  }
+    padding: 0;
+}
   
   .create_zone .form-check input {
     padding: 0;
@@ -328,7 +329,7 @@
 
 .warzone_field, .war_card_scroll {
     overflow-y: scroll;
-    height: 100vh;
+    height: 550px;
     overflow-x: hidden;
     padding: 0 50px 0 0;
 }
@@ -392,4 +393,50 @@
         font-size: 43px;
         line-height: 50px;
     }
+    .warzone_field, .war_card_scroll {
+        padding: 0 20px 0 0;
+    }
+    .war_vs strong {
+        line-height: 80px;
+        font-size: 26px;
+    }
+    .war_vs {
+        width: 80px;
+        height: 80px;
+    }
+    .war_battle_card .row {
+        row-gap: 70px;
+    }
+}
+@media (max-width: 650px) {
+.card_tab .nav-tabs {
+    display: grid;
+    grid-template-columns: 5fr 5fr;}
+}
+
+@media (max-width: 480px) {
+.battlefield_content ul li {
+    text-align: center;
+    padding: 13px 0;
+}
+.battlefield_content ul {
+    grid-template-columns: 5fr;
+    
+    
+}
+.create_zone .war_vs strong {
+    font-size: 25px;
+    line-height: 80px;
+}
+.create_zone .war_vs {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+.create_zone form label {
+    font-size: 22px;
+}
+.create_button button {
+    font-size: 18px;
+}
 }

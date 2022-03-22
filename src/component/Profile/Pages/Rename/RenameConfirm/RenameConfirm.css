@@ -152,3 +152,43 @@
     color: #fff;
     font-size: 18px;
 }
+
+
+
+@media (max-width: 650px) {
+    .confirmation_heading ul {
+        grid-template-columns: 5fr;
+        
+    }
+    .confirmation_vs {
+        width: 80px;
+        height: 80px;
+        
+    }
+    .confirmation_vs strong {
+        font-size: 32px;
+        line-height: 80px;
+    }
+    .confirmation_heading ul li {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .confirmation_heading h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+        text-align: left;
+        color: #FFFFFF;
+    }
+    .enlist_card a {
+        padding: 10px 40px;
+        
+    }
+    .promote_tab .list_box ul {
+        grid-template-columns: 6fr;
+    }
+    .confirmation_heading h2 {
+        font-size: 35px;
+    }
+}
