@@ -35,7 +35,7 @@ function Winner(){
           </ul>
           </div>
           <div className="add_battle_btn">
-<a href="#">ADD TO BATTLE LIST</a>
+<a href="/battle-list">ADD TO BATTLE LIST</a>
           </div>
                    </div>
                    </div>

@@ -67,7 +67,7 @@ function OthersConfirmationCard(){
 <div className="initiate_content">
              <h2>Initiate breeding?</h2>
              <p>Breed fee:<br></br><strong>10 MATIC</strong></p>
-             <a className="btn" href="/others-confirmation">CONFIRM</a>
+             <a className="btn" href="/confirmation-msg">CONFIRM</a>
              </div>
             </div>
          </div>

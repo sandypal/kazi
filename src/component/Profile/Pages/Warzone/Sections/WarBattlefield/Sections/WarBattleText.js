@@ -20,7 +20,7 @@ function WarBattleText(){
                 <div className="row">
                 <div className="col-md-12">
                     <div className="confirm_button">
-                        <a className="btn" href="#">CONFIRM SELECTION</a>
+                        <a className="btn" href="/confirmation">CONFIRM SELECTION</a>
                         </div>
                     </div>
                     </div>

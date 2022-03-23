@@ -51,7 +51,7 @@ function ConfirmationMsgText(){
   <textarea className="form-control" id="floatingTextarea2" ></textarea>
  
 </div>
-<a className="btn" href="/breeding">BREED SUCCESSFUL!</a>
+<a className="btn" href="/breeding">BACK TO BREEDING LAB</a>
           </div>
           </div>
 </div>

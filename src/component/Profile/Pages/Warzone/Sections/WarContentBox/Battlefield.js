@@ -37,7 +37,7 @@ function Battlefield(){
          </ul>
 
          <div className="field_btn">
-             <a className="btn" href="#">JOIN BATTLEFIELD</a>
+             <a className="btn" href="/battle-field">JOIN BATTLEFIELD</a>
              </div>
       </div>
       <div className="battlefield_content">
@@ -69,7 +69,7 @@ function Battlefield(){
          </ul>
 
          <div className="field_btn">
-             <a className="btn" href="#">JOIN BATTLEFIELD</a>
+             <a className="btn" href="/battle-field">JOIN BATTLEFIELD</a>
              </div>
       </div>
    </div>

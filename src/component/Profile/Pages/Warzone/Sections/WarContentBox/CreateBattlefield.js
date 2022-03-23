@@ -7,7 +7,7 @@ function CreateBattlefield(){
      <div className="row">
    <div className="col-md-6 offset-md-3">
    <div className="create_zone">
-       <form action="/war-zone">
+       <form action="/battle-field">
     <div class="form-check">
       <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked/>
       <label class="form-check-label" for="radio1">Blacknet VS Alice</label>

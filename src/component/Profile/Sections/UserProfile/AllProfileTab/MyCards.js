@@ -25,8 +25,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -49,8 +49,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -72,8 +72,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -95,8 +95,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -118,8 +118,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -141,8 +141,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -164,8 +164,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>
@@ -187,8 +187,8 @@ function MyCards(){
             <div className="rank"><span>RANK:</span> <strong>PRIVATE</strong></div>
             <div className="card_link">
                <ul>
-                  <li><a href="#">BATTLE LIST</a></li>
-                  <li><a href="#">BREED LIST</a></li>
+                  <li><a href="/battle-list">BATTLE LIST</a></li>
+                  <li><a href="/breeding">BREED LIST</a></li>
                </ul>
             </div>
          </div>

@@ -439,4 +439,10 @@
 .create_button button {
     font-size: 18px;
 }
+.create_zone .form-check input:checked + label:after {
+top: 8px;
+}
+.battlefield_content h4 {
+    font-size: 30px;
+}
 }

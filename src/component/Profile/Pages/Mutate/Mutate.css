@@ -322,7 +322,7 @@
 .promote_btn ul li a {
     border: 2px solid #ff0000;
     color: #fff;
-    padding: 10px 40px;
+    padding: 10px 0px;
     width: 100%;
 }
 
@@ -358,6 +358,26 @@
     }
     .content_box {
         padding: 0 20px 0 0;
+    }
+	.promote_btn ul {
+		grid-template-columns: 6fr;
+	
+	}
+	.promote_tab h4 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+	.promote_tab .list_box ul li span {
+		font-size: 15px;
+		
+	}
+	.promote_tab .list_box ul li {
+		font-size: 14px;
+		line-height: 20px;
+	}
+    .promote_btn {
+        margin-top: 20px;
     }
 }
 @media (max-width: 767px) {
