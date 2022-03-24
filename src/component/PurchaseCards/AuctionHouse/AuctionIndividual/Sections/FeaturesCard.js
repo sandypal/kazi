@@ -1,11 +1,11 @@
 import React from 'react';
-function RestingFeatures(){
+function FeaturesCard(){
  return <div>
-<section className="card_details_section">
+<section className="purchase_card_details">
          <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                <div className="features_status">
+                <div className="features_status_purchase">
                         <h2>FEATURES</h2>
                         <ul>
                                 <li><span>Hair </span><br></br>
@@ -61,30 +61,9 @@ function RestingFeatures(){
             </div>
          </div>
       </section>
-      <section className="card_details_section">
-         <div className="container">
-            <div className="row">
-                <div className="col-md-8 offset-md-2">
-                    <div className="features_tab">
-                        <ul>
-                            <li><a href="/battle-list">ADD TO BATTLE LIST</a></li>
-                            <li><a href="/breeding">ADD FOR BREEDING</a></li>
-                            <li><a href="/rename">RENAME CARD</a></li>
-                            <li><a href="/resting-card">REST CARD</a></li>
-                            <li><a href="/promote">PROMOTE</a></li>
-                            <li><a href="/mutate">MUTATE</a></li>
-                            <li><a href="/war-zone">JOIN WAR</a></li> 
-                            <li><a href="/sell-cards">SELL</a></li>
-                            <li><a href="/purchase-cards">AUCTION</a></li>
-                            
-                        </ul>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                    </section>
+    
  </div>
 
 
 }
-export default RestingFeatures;
+export default FeaturesCard;

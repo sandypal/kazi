@@ -1,0 +1,476 @@
+.purchase_section {
+	background-image: url("../PurchaseCards/Images/purchase_banner.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.purchase_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.purchase_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.purchase_box a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	width: 100%;
+	border: 2px solid #ff0000;
+	padding: 10px 0;
+	border-radius: 8px;
+}
+
+.purchase_box .market {
+	background-color: #ff0000;
+	margin-bottom: 30px;
+}
+
+.purchase_box .market:hover {
+	background-color: transparent;
+}
+
+.market_tab .nav-tabs {
+	display: grid;
+	grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+	border: none;
+	margin: 0 0 50px 0;
+	gap: 20px;
+}
+
+.market_tab .nav-tabs li {
+	list-style: none;
+	display: inline-block;
+}
+
+.market_tab .nav-tabs .nav-link.active,
+.market_tab .nav-tabs .nav-item.show .nav-link {
+	color: #ffffff;
+	background-color: #ff0000;
+	border-color: #ff0000;
+}
+
+.market_tab .nav-tabs .nav-item .nav-link {
+	width: 100%;
+	border: 1px solid #ff0000;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.market_heading h2 {
+	color: #ff0000;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 30px;
+}
+
+.market_tab h3 {
+	font-size: 35px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.market_box h4 {
+	font-size: 35px;
+	font-weight: 700;
+	margin: 20px 0;
+	color: #ffffff;
+}
+
+.market_list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	padding: 0;
+	margin: 0;
+	gap: 15px;
+}
+
+.market_list_box ul li {
+	color: #ffffff;
+	font-size: 15px;
+	list-style: none;
+	line-height: 24px;
+}
+
+.market_list_box ul li span {
+	font-weight: 700;
+}
+
+.market_btn ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	list-style: none;
+	gap: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.market_btn ul li a {
+	color: #ffffff;
+	width: 100%;
+	border: 2px solid #ff0000;
+	font-size: 18px;
+	padding: 10px 5px;
+}
+
+.market_btn {
+	margin: 30px 0;
+}
+
+.market_scroll_link {
+	margin-bottom: 40px;
+}
+
+.market_scroll_link ul {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+
+.market_scroll_link ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.market_scroll_link ul li a:hover {
+	color: #ff0000;
+}
+
+.purchase_details_card h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+.purchase_details_card p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 31px;
+	color: #FFFFFF;
+}
+
+.purchase_details_card ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0 60px;
+}
+
+.purchase_details_card ul li {
+	list-style: none;
+	padding: 10px 25px;
+}
+
+.purchase_details_card ul li img {
+	width: 90px;
+}
+
+.purchase_details_card ul li p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #ffffff;
+	margin: 0;
+}
+
+.purchase_details_card ul li p span {
+	color: #FF0000;
+}
+
+.features_status_purchase h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: #FFFFFF;
+	margin-bottom: 30px;
+}
+
+.features_status_purchase ul {
+	padding: 10px 0;
+	margin: 10px 0;
+	display: grid;
+	grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+	text-align: center;
+	border-bottom: 1px solid #ffffff;
+}
+
+.features_status_purchase ul li {
+	list-style: none;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 18px;
+}
+
+.features_status_purchase ul li span {
+	color: #ff0000;
+	font-size: 18px;
+}
+
+.features_status_purchase ul li strong {
+	color: #fff;
+	font-size: 18px;
+}
+
+.features_status_purchase ul li hr {
+	color: #ff0000;
+	opacity: 1;
+	width: 50px;
+	margin: 10px auto;
+}
+
+.purchase_current_status ul {
+    display: flex;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+    list-style: none;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.purchase_current_status ul li span {
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+}
+
+.purchase_current_status ul li strong {
+	font-size: 27px;
+	color: #fff;
+}
+
+.purchase_current_status ul li a {
+	background: #ff0000;
+	color: #fff;
+	padding: 20px 50px;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 8px;
+	border: 2px solid #ff0000;
+}
+
+.purchase_current_status ul li a:hover {
+	background: transparent;
+	color: #ff0000;
+}
+
+.purchase_heading h2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+	text-transform: capitalize;
+}
+
+.purchase_succ_info h4 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FF0000;
+}
+
+.purchase_succ_info h5 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 31px;
+	color: #FFFFFF;
+}
+
+.purchase_list_box {
+	margin-top: 20px;
+}
+
+.purchase_list_box ul {
+	display: grid;
+	grid-template-columns: 6fr 6fr;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.purchase_list_box ul li {
+	padding: 5px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.purchase_list_box ul li span {
+	color: #FF0000;
+}
+
+.purchase_succ_text h3 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	color: #FF0000;
+}
+
+.purchase_succ_text {
+	margin-top: 40px;
+}
+
+.purchase_succ_text p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+	border-left: 1px solid #ff0000;
+	padding-left: 15px;
+}
+
+.purchase_btn a {
+	border: 2px solid #ff0000;
+	padding: 10px 40px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.purchase_succ_text .form-floating label {
+	font-style: italic;
+	color: #fff;
+	font-size: 16px;
+	padding: 0;
+}
+
+.purchase_succ_text .form-floating textarea {
+	border-bottom: 2px solid #434343;
+	border-radius: 0;
+	background-color: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	padding: 0;
+	color: #fff;
+	height: 100px;
+}
+.bid_price {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 6fr 6fr;
+    border-left: 1px solid #ff0000;
+    padding-left: 15px;
+    gap: 20px;
+}
+.bid_price span{
+	font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+.bid_price input {
+    background: transparent;
+    border: 1px solid #ff0000;
+    font-size: 18px;
+    padding: 0 10px !important;
+    text-align: right;
+}
+
+.purchase {
+    margin-top: 30px;
+}
+.bid_price input::-webkit-input-placeholder { /* Edge */
+	color: rgb(99, 99, 99) !important;
+  }
+  
+  .bid_price input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: rgb(99, 99, 99) !important;
+  }
+  
+  .bid_price input::placeholder {
+	color: rgb(99, 99, 99) !important;
+  }
+.bid_price strong.text-danger {
+    color: #ff0000 !important;
+}
+.purchase_current_status ul li strong.text-danger {
+    color: #ff0000 !important;
+}
+.market_list_box .text-danger {
+    color: #ff0000 !important;
+}
+.market_box {
+	overflow-y: scroll;
+	height: 550px;
+	overflow-x: hidden;
+	padding: 0 50px 0 0;
+}
+
+
+/* width */
+
+.market_box::-webkit-scrollbar {
+	width: 15px;
+}
+
+
+/* Track */
+
+.market_box::-webkit-scrollbar-track {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+
+/* Handle */
+
+.market_box::-webkit-scrollbar-thumb {
+	background: red;
+	border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.market_box::-webkit-scrollbar-thumb:hover {
+	background: #b30000;
+}
+
+@media (max-width: 767px) {
+	.purchase_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.purchase_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+}

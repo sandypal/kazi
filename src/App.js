@@ -63,6 +63,22 @@ import MutateCongratulations from './component/Profile/Pages/Mutate/MutateCongra
 import Rename from './component/Profile/Pages/Rename/Rename';
 import RenameConfirm from './component/Profile/Pages/Rename/RenameConfirm/RenameConfirm';
 import RenameCongratulations from './component/Profile/Pages/Rename/RenameCongratulations/RenameCongratulations';
+import PurchaseCards from './component/PurchaseCards/PurchaseCards';
+import MarketPlace from './component/PurchaseCards/MarketPlace';
+import PurchaseIndividual from './component/PurchaseCards/PurchaseIndividual';
+import PurchaseConfirmation from './component/PurchaseCards/PurchaseConfirmation';
+import PurchaseCongratulations from './component/PurchaseCards/PurchaseCongratulations';
+import AuctionHouse from './component/PurchaseCards/AuctionHouse';
+import AuctionIndividual from './component/PurchaseCards/AuctionIndividual';
+import AuctionConfirmation from './component/PurchaseCards/AuctionConfirmation';
+import AuctionCongratulations from './component/PurchaseCards/AuctionCongratulations';
+import SellCards from './component/SellCards/SellCards';
+import SellCardDetails from './component/SellCards/SellCardDetails';
+import SellConfirmation from './component/SellCards/SellConfirmation';
+import SellCongratulations from './component/SellCards/SellCongratulations';
+import SellOut from './component/SellCards/SellOut';
+import SellOutConfirmation from './component/SellCards/SellOutConfirmation';
+import SellOutCongratulations from './component/SellCards/SellOutCongratulations';
 import Footer from './component/Footer/Footer';
 
 
@@ -134,6 +150,22 @@ class App extends Component {
             <Route exact path='/rename-confirm' element={< RenameConfirm />}></Route>
             <Route exact path='/rename-congratulations' element={< RenameCongratulations />}></Route>
             <Route exact path='/connect-wallet' element={< ConnectWallet />}></Route>
+            <Route exact path='/purchase-cards' element={< PurchaseCards />}></Route>
+            <Route exact path='/marketplace' element={< MarketPlace />}></Route>
+            <Route exact path='/purchase-individual' element={< PurchaseIndividual />}></Route>
+            <Route exact path='/purchase-confirmation' element={< PurchaseConfirmation />}></Route>
+            <Route exact path='/purchase-congratulations' element={< PurchaseCongratulations />}></Route>
+            <Route exact path='/auction-house' element={< AuctionHouse />}></Route>
+            <Route exact path='/auction-individual' element={< AuctionIndividual />}></Route>
+            <Route exact path='/auction-confirmation' element={< AuctionConfirmation />}></Route>
+            <Route exact path='/auction-congratulations' element={< AuctionCongratulations />}></Route>
+            <Route exact path='/sell-cards' element={< SellCards />}></Route>
+            <Route exact path='/sell-card-details' element={< SellCardDetails />}></Route>
+            <Route exact path='/sell-confirmation' element={< SellConfirmation />}></Route>
+            <Route exact path='/sell-congratulations' element={< SellCongratulations />}></Route>
+            <Route exact path='/sell-auction' element={< SellOut />}></Route>
+            <Route exact path='/sell-auction-confirmation' element={< SellOutConfirmation />}></Route>
+            <Route exact path='/sell-auction-congratulations' element={< SellOutCongratulations />}></Route>
           </Routes>
           <Footer/>
        </Router>

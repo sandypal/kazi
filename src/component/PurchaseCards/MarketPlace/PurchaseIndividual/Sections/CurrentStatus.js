@@ -1,0 +1,26 @@
+import React from 'react';
+function CurrentStatus(){
+ return <div>
+<section className="card_details_purchase">
+         <div className="container">
+            <div className="row">
+                <div className="col-md-12">
+                    <div className="purchase_current_status">
+                        <ul>
+                            <li><span>Time on sale</span><br></br>
+                                <strong>00:11:48</strong></li>
+                                <li><span>Market price</span><br></br>
+                                <strong>5 MATIC</strong></li>
+                                <li><a href="/purchase-confirmation">PURCHASE</a></li>
+                                
+                        </ul>
+                        </div>
+          </div>
+            </div>
+         </div>
+      </section>
+ </div>
+
+
+}
+export default CurrentStatus;

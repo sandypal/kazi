@@ -74,8 +74,8 @@ function FeaturesCard(){
                             <li><a href="/promote">PROMOTE</a></li>
                             <li><a href="/mutate">MUTATE</a></li>
                             <li><a href="/war-zone">JOIN WAR</a></li> 
-                            <li><a href="#">SELL</a></li>
-                            <li><a href="#">AUCTION</a></li>
+                            <li><a href="/sell-cards">SELL</a></li>
+                            <li><a href="/purchase-cards">AUCTION</a></li>
                             
                         </ul>
                         </div>

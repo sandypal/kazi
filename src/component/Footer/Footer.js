@@ -58,7 +58,7 @@ function Footer () {
                     </div>
                   </div>
                 </form>
-                <Link to="#">BUY NFTS</Link>
+                <Link to="/buy-nft">BUY NFTS</Link>
                 <ul>
                    <li><Link to="#"><i className="fab fa-twitter"></i></Link></li>
                    <li><Link to="#"><i className="fab fa-youtube"></i></Link></li>
