@@ -34,6 +34,7 @@ import More from './component/Pages/More/More';
 import Leaderboard from './component/Pages/More/Leaderboard';
 import Ranks from './component/Pages/More/Ranks';
 import Weapons from './component/Pages/More/Weapons';
+import Multiplier from './component/Pages/More/Multiplier';
 import Whitepaper from './component/Pages/More/Whitepaper';
 import Meetteam from './component/Pages/More/Meetteam';
 import Buynft from './component/Pages/More/Buynft';
@@ -115,6 +116,7 @@ class App extends Component {
             <Route exact path='/More' element={< More />}></Route> 
             <Route exact path='/leaderboard' element={< Leaderboard />}></Route>
             <Route exact path='/ranks' element={< Ranks />}></Route>
+            <Route exact path='/multiplier' element={< Multiplier />}></Route>
             <Route exact path='/weapons' element={< Weapons />}></Route>
             <Route exact path='/whitepaper' element={< Whitepaper />}></Route>
             <Route exact path='/meet-team' element={< Meetteam />}></Route>

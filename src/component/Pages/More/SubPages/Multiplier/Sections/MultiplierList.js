@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-function WhitepaperList () {
+function MultiplierList () {
 	return <div>
-<div className="more_menu_list">
+<section className="more_menu_list">
    <div className="container">
       <div className="row">
          <div className="col-md-12">
@@ -20,12 +20,13 @@ function WhitepaperList () {
                      <Link className="nav-link" to="/weapons">
                      WEAPONS’ LIST</Link>
                   </li>
+                 
                   <li className="nav-item">
-                     <Link className="nav-link" to="/multiplier">
+                     <Link className="nav-link active" to="/multiplier">
                      MULTIPLIER</Link>
                   </li>
                   <li className="nav-item">
-                     <Link className="nav-link active" to="/whitepaper">
+                     <Link className="nav-link" to="/whitepaper">
                      WHITEPAPER</Link>
                   </li>
                   <li className="nav-item">
@@ -41,7 +42,7 @@ function WhitepaperList () {
          </div>
       </div>
    </div>
-</div>
+</section>
     </div>
 }
-export default WhitepaperList;
+export default MultiplierList;

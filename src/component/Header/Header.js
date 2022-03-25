@@ -93,6 +93,7 @@ function Nav () {
                                  <li><Link className="dropdown-item" to="/leaderboard">Leaderboard</Link></li>
                                  <li><Link className="dropdown-item" to="/ranks">Ranks</Link></li>
                                  <li><Link className="dropdown-item" to="/weapons">Weapons’ list</Link></li>
+                                 <li><Link className="dropdown-item" to="/multiplier">Multiplier</Link></li>
                                  <li><Link className="dropdown-item" to="/whitepaper">Whitepaper</Link></li>
                                  <li><Link className="dropdown-item" to="/buy-nft">Buy NFTs</Link></li>
                                  <li><Link className="dropdown-item" to="/meet-team">Meet the team</Link></li>

@@ -21,6 +21,10 @@ function BuyNftList () {
                      WEAPONS’ LIST</Link>
                   </li>
                   <li className="nav-item">
+                     <Link className="nav-link" to="/multiplier">
+                     MULTIPLIER</Link>
+                  </li>
+                  <li className="nav-item">
                      <Link className="nav-link" to="/whitepaper">
                      WHITEPAPER</Link>
                   </li>

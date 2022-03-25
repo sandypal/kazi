@@ -1,0 +1,145 @@
+.Page_Leader_section {
+	background-image: url("../Multiplier/Images/leader_banner.png"); 
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Page_Leader_section {
+	text-align: center;
+	padding: 120px 0;
+}
+
+.Page_Leader_section h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 73px;
+	line-height: 92px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+.nav_menu ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.nav_menu ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.nav_menu ul li a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 31px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.nav_menu ul li a:hover {
+	color: #FF0000;
+}
+
+.nav_menu ul li a.active {
+	color: #ff0000;
+}
+
+
+.board_text_section ul {
+    padding: 0;
+    margin: 0 0 30px 0;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.board_text_section ul li {
+	list-style: none;
+}
+.heading_list {
+    padding: 0;
+    margin: 0 0 30px 0;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-bottom: 1px solid #ffffff6b;
+}
+.board_text_section h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    color: #FF0000;
+    margin-bottom: 50px;
+}
+.board_text_section p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+.info_user p img {
+    width: auto;
+}
+.info_user p {
+    font-size: 30px;
+}
+.profile {
+	display: flex;
+	gap: 15px;
+	align-content: center;
+	vertical-align: middle;
+}
+
+.profile .profile_img {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	padding: 15px;
+}
+
+.user_name span {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.user_name h5 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 35px;
+}
+
+.info_user p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #FF0000;
+    margin: 0;
+    line-height: 20px;
+}
+
+.info_user strong {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #FF0000;
+}
+
+
+
+@media (max-width: 767px) {
+	.Page_Leader_section {
+		text-align: center;
+		padding: 80px 0;
+	}
+	.Page_Leader_section h1 {
+		font-size: 43px;
+		line-height: 50px;
+	}
+}
