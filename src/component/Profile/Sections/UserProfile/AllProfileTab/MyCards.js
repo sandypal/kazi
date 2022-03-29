@@ -27,6 +27,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -51,6 +52,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -74,6 +76,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -97,6 +100,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -120,6 +124,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -143,6 +148,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -166,6 +172,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>
@@ -189,6 +196,7 @@ function MyCards(){
                <ul>
                   <li><a href="/battle-list">BATTLE LIST</a></li>
                   <li><a href="/breeding">BREED LIST</a></li>
+                  <li><a href="/sell-cards">SELL</a></li>
                </ul>
             </div>
          </div>

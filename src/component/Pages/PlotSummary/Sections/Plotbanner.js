@@ -6,7 +6,7 @@ function Plotbanner () {
             <div className="row">
                <div className="col-md-12">
                   <div className="page_title">
-                     <h1>Plot Summary</h1>
+                     <h1>The Origin</h1>
                   </div>
                </div>
             </div>

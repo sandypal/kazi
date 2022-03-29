@@ -19,7 +19,7 @@
 	font-family: 'Chakra Petch', sans-serif;
 }
 
-.details_card ul {display: grid;grid-template-columns: 6fr 6fr;margin: 0;padding: 0 60px;}
+.details_card ul {display: grid;grid-template-columns: 6fr 6fr;margin: 0;padding: 0 0px;}
 
 .details_card ul li {
     list-style: none;
@@ -70,7 +70,7 @@
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
     text-align: center;
 }
 
@@ -110,7 +110,7 @@
     list-style: none;
     padding: 15px 0;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .features_status ul li span {
     color: #ff0000;
@@ -119,7 +119,7 @@
 
 .features_status ul li strong {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
 }
 .features_status ul li hr {
     color: #ff0000;
@@ -162,6 +162,10 @@
         text-decoration: none;
         font-size: 12px;
     }
+    .current_status ul {
+        grid-template-columns: 2fr 2fr 2fr;
+        gap: 20px;
+    }
     .features_tab ul li {
         padding: 10px 10px;
        
@@ -190,7 +194,7 @@
         margin-top: 30px;
     }
     .current_status ul {
-        grid-template-columns: 5fr 5fr;
+        grid-template-columns: 2fr 2fr;
         gap: 20px;
     }
     .features_status ul {

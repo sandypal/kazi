@@ -170,6 +170,7 @@
 	height: auto;
 	object-fit: cover;
 	margin: 0 auto;
+	border: 2px dashed #fff;
 }
 
 .profile_slider h6 {

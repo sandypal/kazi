@@ -1,5 +1,5 @@
 .profile_user_section {
-    background-image: url("../UserProfile/Images/Landing-header.png");
+    background-image: url("../UserProfile/Images/Landing_banner.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,7 +156,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 4fr 4fr 4fr;
     text-align: left;
     margin-top: 25px;
 }
@@ -170,7 +170,7 @@
     border: 2px solid #ff0000;
     color: #fff;
     text-decoration: none;
-    padding: 12px 40px;
+    padding: 12px 20px;
     border-radius: 8px;
 }
 

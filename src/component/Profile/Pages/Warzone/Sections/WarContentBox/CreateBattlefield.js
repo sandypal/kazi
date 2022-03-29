@@ -48,7 +48,7 @@ function CreateBattlefield(){
          </ul>
     </div>
     <div className="create_button">
-    <button type="submit" class="btn mt-3">CREATE NEW BATTLEFIELD</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">CREATE NEW BATTLEFIELD</button>
     </div>
   </form>
   </div>

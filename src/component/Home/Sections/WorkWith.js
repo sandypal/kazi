@@ -8,9 +8,7 @@ function WorkWith () {
                
                <div className="col-md-10 offset-md-1">
                   <div className="work_text_box text-center">
-                     <p>Overlapping the feature image will be the title of this section (as shown above) and below
-                        the above feature image and title will be this description section that will contain a small
-                        introduction on how users can learn to play this game.
+                     <p>EXTREMIS enthuses players to strategize and form tactical alliances with others. Discover allies and make strategic partnerships through the EXTREMIS community platforms on Discord, Twitter, Facebook, Instagram and Youtube. Follow our pages to get story updates and game tips. Keep updated on your fellow EXTREMIS players by connecting with them through our communities.
                      </p>
                      <ul>
                    <li><Link to="#"><i className="fab fa-twitter"></i></Link></li>

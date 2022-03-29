@@ -66,7 +66,7 @@ function MarketplaceText () {
        </div>
        <div className="col-md-12"><img src={mid_banner}/></div>
        </div>
-       <div className="row align-items-center ">
+       <div className="row">
        <div className="col-md-6">
        <div className="custom_tab_text" id="timelimit">
          <h3>Setting time limit in auction</h3>

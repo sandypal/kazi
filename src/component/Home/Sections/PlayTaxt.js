@@ -7,11 +7,9 @@ function PlayTaxt () {
                
                <div className="col-md-10 offset-md-1">
                   <div className="play_text_box text-center">
-                     <p>Overlapping the feature image will be the title of this section (as shown above) and below
-                        the above feature image and title will be this description section that will contain a small
-                        introduction on how users can learn to play this game.
+                     <p>EXTREMIS is a P2E blockchain-based game where players can buy, sell and breed cards to fight battles and wars with others. Learn about all the game functionalities in detail through the step-by-step Gameplay guide.
                      </p>
-                     <a className="play_byn btn" href="#">LEARN TO PLAY</a>
+                     <a className="play_byn btn" href="/guide">GAMEPLAY GUIDE</a>
                   </div>
                </div>
                

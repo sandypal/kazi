@@ -1,4 +1,4 @@
-.Page_whitepaper_section {
+/* .Page_whitepaper_section {
 	background-image: url("../Whitepaper/Images/more_banner.png");
 	background-position: center;
 	background-size: cover;
@@ -17,7 +17,7 @@
 	line-height: 92px;
 	text-align: center;
 	color: #FFFFFF;
-}
+} */
 
 .nav_menu ul {
 	padding: 0;
@@ -122,16 +122,17 @@
     line-height: inherit;
     color: #FF0000;
 }
-.whitepaper_tab ul {
+.whitepaper_tab ul.nav-tabs {
     padding: 0;
     margin: 0;
     text-align: center;
-    display: flex;
+    display: grid;
     gap: 15px;
     list-style: none;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
 }
 .whitepaper_tab .nav-tabs .nav-link.active, .whitepaper_tab .nav-tabs .nav-item.show .nav-link {
     color: #ffffff;
@@ -184,15 +185,24 @@
 
 
 /* Handle on hover */
-
-
+@media (max-width: 991px) {
+.whitepaper_tab ul.nav-tabs {
+    grid-template-columns: 5fr 5fr 5fr;
+}
+}
 @media (max-width: 767px) {
-	.Page_more_section {
+	/* .Page_whitepaper_section {
 		text-align: center;
 		padding: 80px 0;
 	}
-	.Page_more_section h1{
+	.Page_whitepaper_section h1{
 		font-size: 43px;
 		line-height: 50px;
-	}
+	} */
 }
+
+@media (max-width: 520px) {
+    .whitepaper_tab ul.nav-tabs {
+        grid-template-columns: 5fr 5fr;
+    }
+    }

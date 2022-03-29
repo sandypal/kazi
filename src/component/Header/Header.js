@@ -22,8 +22,8 @@ function Nav () {
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                               <hr></hr>
-                              <li><Link className="dropdown-item" to="/plotsummary">Plot summary</Link></li>
-                                 <li><Link className="dropdown-item" to="/allchapters">All chapters</Link></li>
+                              <li><Link className="dropdown-item" to="/the-origin">The origin</Link></li>
+                                 <li><Link className="dropdown-item" to="/the-chronicles">The chronicles</Link></li>
                                  {/* <li><Link className="dropdown-item" to="/genesis">The Genesis</Link></li> */}
                                  <hr></hr>
                               </ul>
@@ -34,6 +34,7 @@ function Nav () {
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                               <hr></hr>
+                                 <li><Link className="dropdown-item" to="/metaverse">The metaverse</Link></li>
                                  <li><Link className="dropdown-item" to="/blacknet">Blacknet</Link></li>
                                  <li><Link className="dropdown-item" to="/alice">Alice</Link></li>
                                  <li><Link className="dropdown-item" to="/humanity">Humanity</Link></li>
@@ -51,11 +52,13 @@ function Nav () {
                                  <li><Link className="dropdown-item" to="/alice-card">Alice</Link></li>
                                  <li><Link className="dropdown-item" to="/humanity-card">Humanity</Link></li>
                                  <li><Link className="dropdown-item" to="/genesis-card">Genesis</Link></li>
+                                 <li><Link className="dropdown-item" to="/purchase-cards">Buy card</Link></li>
+                                 <li><Link className="dropdown-item" to="/sell">Sell card</Link></li>
                                  <hr></hr>
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="profile">
+                              <Link className="nav-link dropdown-toggle" to="/profile-setting">
                               Play
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -66,6 +69,7 @@ function Nav () {
                                  <li><Link className="dropdown-item" to="/promote">Promote cards</Link></li>
                                  <li><Link className="dropdown-item" to="/mutate">Mutate cards</Link></li>
                                  <li><Link className="dropdown-item" to="/rename">Rename cards</Link></li>
+                                 <li><Link className="dropdown-item" to="/market-place">Marketplace</Link></li>
                                  <hr></hr>
                                  </ul>
                            </li>
@@ -85,7 +89,7 @@ function Nav () {
                               </ul>
                            </li>
                            <li className="nav-item dropdown">
-                              <Link className="nav-link dropdown-toggle" to="/More">
+                              <Link className="nav-link dropdown-toggle" to="/leaderboard">
                               More
                               </Link>
                               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">

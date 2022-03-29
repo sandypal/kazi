@@ -26,7 +26,7 @@ function BreedReady(){
                </div>
                <div className="breed_btn">
                   <a className="btn" href="#">SELECT</a>
-                  <a className="btn" href="#">REST</a>
+                  <a className="btn" href="#">EXIT LIST</a>
                </div>
             </div>
          </div>
@@ -51,7 +51,7 @@ function BreedReady(){
                </div>
                <div className="breed_btn">
                   <a className="btn" href="#">SELECT</a>
-                  <a className="btn" href="#">REST</a>
+                  <a className="btn" href="#">EXIT LIST</a>
                </div>
             </div>
          </div>
@@ -76,7 +76,7 @@ function BreedReady(){
                </div>
                <div className="breed_btn">
                   <a className="btn" href="#">SELECT</a>
-                  <a className="btn" href="#">REST</a>
+                  <a className="btn" href="#">EXIT LIST</a>
                </div>
             </div>
          </div>
@@ -101,7 +101,7 @@ function BreedReady(){
                </div>
                <div className="breed_btn">
                   <a className="btn" href="#">SELECT</a>
-                  <a className="btn" href="#">REST</a>
+                  <a className="btn" href="#">EXIT LIST</a>
                </div>
             </div>
          </div>

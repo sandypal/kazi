@@ -1,5 +1,5 @@
 .Page_plotsummary_section {
-	background-image: url("../PlotSummary/Sections/Images/chapters_banner.png");
+	background-image: url("../PlotSummary/Sections/Images/the-origin.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -18,7 +18,36 @@
 	text-align: center;
 	color: #ffffff;
 }
+.origin_text_box h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FF0000;
+}
 
+.origin_text_box p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.origin_text_box a.origin {
+    border: 2px solid #EC0909;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 8px 40px;
+}
 @media (max-width: 767px) {
 	.Page_plotsummary_section {
 		text-align: center;

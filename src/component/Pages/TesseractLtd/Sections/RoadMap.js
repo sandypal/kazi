@@ -1,5 +1,8 @@
 import React from 'react';
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
+import InnerImageZoom from 'react-inner-image-zoom';
 import about_tesseract_roadmap from "../Sections/images/about_tesseract_roadmap.png";
+
 function RoadMap () {
 	return <div>
 <section className="roadmap_section">
@@ -11,7 +14,8 @@ function RoadMap () {
                <h2>ROADMAP</h2>
                </div>
                   <div className="roadmap_box text-center">
-                      <img src={about_tesseract_roadmap}/>
+                     <InnerImageZoom src={about_tesseract_roadmap} zoomSrc="../Sections/images/about_tesseract_roadmap.png" />
+                      
                   </div>
                </div>
                 

@@ -33,7 +33,7 @@ export default function BuildArmy() {
                            <div className="build_army">
                   <ul>
                      <li><a href="#">LEARN MORE</a></li>
-                     <li><a href="#">SEE CARDS</a></li>
+                     <li><a href="/cardcollection">SEE CARDS</a></li>
                   </ul>
                </div>
                         </div>

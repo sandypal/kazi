@@ -93,8 +93,8 @@ class App extends Component {
            <Routes>          
             <Route exact path='/' element={ <Home/>}></Route>
             <Route exact path='/story' element={< Story />}></Route>
-            <Route exact path='/allchapters' element={< AllChapters />}></Route>
-            <Route exact path='/plotsummary' element={< PlotSummary />}></Route>
+            <Route exact path='/the-chronicles' element={< AllChapters />}></Route>
+            <Route exact path='/the-origin' element={< PlotSummary />}></Route>
             <Route exact path='/genesis' element={< Genesis />}></Route>
             <Route exact path='/alice' element={< Alice />}></Route>
             <Route exact path='/blacknet' element={< Blacknet />}></Route>
@@ -127,7 +127,7 @@ class App extends Component {
             <Route exact path='/contact-us' element={< Contact />}></Route>
             <Route exact path='/signin' element={< SignIn />}></Route>
             <Route exact path='/signup' element={< Signup />}></Route>
-            <Route exact path='/profile' element={< Profile />}></Route>
+            <Route exact path='/sell' element={< Profile />}></Route>
             <Route exact path='/individual-card' element={< IndividualCard />}></Route>
             <Route exact path='/profile-setting' element={< ProfileSetting />}></Route>
             <Route exact path='/battle-list' element={< BattleList />}></Route>

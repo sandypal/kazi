@@ -1,4 +1,4 @@
-.Page_story_section {
+/* .Page_story_section {
     background-image: url("../Story/Sections/Images/story_banner.png");
       background-position: center;
       background-size: cover;
@@ -16,7 +16,7 @@
       line-height: 92px;
       text-align: center;
       color: #ffffff;
-  }
+  } */
 
   .story_text_box h2 {
     font-style: normal;

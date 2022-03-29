@@ -24,7 +24,7 @@ export default function ProfileSlider() {
                <Slider {...settings}>
                   <div className="col-md-12">
                      <div className="row align-items-center">
-                        <div className="col-md-6"><img src={profile_img1}/></div>
+                        <div className="col-md-6"><img src={profile_img}/></div>
                         <div className="col-md-6">
                            <h2>LEADERBOARD</h2>
                           <h6>1st</h6>
@@ -51,7 +51,7 @@ export default function ProfileSlider() {
                  </div>
                  <div className="col-md-12">
                   <div className="row align-items-center">
-                     <div className="col-md-6"><img src={profile_img3}/></div>
+                     <div className="col-md-6"><img src={profile_img}/></div>
                      <div className="col-md-6">
                      <h2>LEADERBOARD</h2>
                        <h6>3st</h6>

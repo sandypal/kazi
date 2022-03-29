@@ -7,7 +7,9 @@ function BannerText () {
               
                <div className="col-md-10 offset-md-1">
                   <div className="play_text_box text-center">
-                     <p>Enter the world of EXTREMIS and get the experience of collecting cards, upgrading them and battling them against other players. Here, you chase for the truth: either choosing for Humanity or Blacknet or Alice, build your own army and make allies to defeat the enemy. Breed your cards to gain ultimate powers to eliminate the last card of your opponent and seize the trophy!
+                     <p>A doctor, blinded by his ambition to create a conscious being, gives rise to a superpower now threatening all of humanity. As war rages on between man and the conscious machine, humans face uncertainty when their supposed-to-be helpers are free to choose and join either side or none at all. The podium stands tall to embrace one winner. Who will that be?</p>
+
+<p>Welcome, to the war-torn world of EXTREMIS.
                      </p>
                      <a className="play_byn btn" href="#">PLAY NOW</a>
                   </div>

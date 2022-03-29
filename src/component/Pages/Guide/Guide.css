@@ -244,8 +244,7 @@ html {
 }
 .faq_tab .nav-tabs {
     border-bottom: none;
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
@@ -260,7 +259,7 @@ html {
     color: #fff;
     font-size: 18px;
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 .faq_tab .nav-tabs .nav-link:hover, .faq_tab .nav-tabs .nav-link:focus {
     border-color: transparent;
@@ -330,12 +329,7 @@ ul.rank_order li {
     color: #fff;
     font-size: 16px;
 }
-@media (max-width: 1400px) {
-    .faq_tab .nav-tabs {
-        grid-template-columns: 3fr 3fr 3fr;
-        
-    }
-}
+
 @media (max-width: 1199px) {
     .guide_menu_list ul .nav-item .nav-link {
      font-size: 14px;
@@ -348,12 +342,7 @@ ul.rank_order li {
     
 }
 }
-@media (max-width: 991px) {
-.faq_tab .nav-tabs {
-    grid-template-columns: 3fr 3fr;
-    
-}
-}
+
 @media (max-width: 767px) {
 	.Page_guide_section {
 		text-align: center;
@@ -363,9 +352,7 @@ ul.rank_order li {
 		font-size: 43px;
 		line-height: 50px;
 	}
-    .faq_tab .nav-tabs {
-        grid-template-columns: 3fr 3fr;
-    }
+   
     .faq_tab .nav-tabs .nav-link {
         color: #fff;
         font-size: 13px;

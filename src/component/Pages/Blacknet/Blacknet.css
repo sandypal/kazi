@@ -1,4 +1,4 @@
-.Page_blacknet_section {
+/* .Page_blacknet_section {
 	background-image: url("../Blacknet/Sections/Images/blacknet_header.png");
 	background-position: center;
 	background-size: cover;
@@ -17,7 +17,7 @@
 	line-height: 92px;
 	text-align: center;
 	color: #ffffff;
-}
+} */
 .blacknettext_box h2 {
     font-style: normal;
     font-weight: bold;
@@ -56,12 +56,12 @@
     display: inline-block;
 }
 @media (max-width: 767px) {
-	.Page_blacknet_section {
+	/* .Page_blacknet_section {
 		text-align: center;
 		padding: 80px 0;
 	}
 	.Page_blacknet_section h1 {
 		font-size: 43px;
 		line-height: 50px;
-	}
+	} */
 	}

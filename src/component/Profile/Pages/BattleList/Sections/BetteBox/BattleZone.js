@@ -67,13 +67,15 @@ function BattleZone(){
                </ul>
 
                <div className="zone_btn">
-                   <a className="btn" href="#winner">INITIATE BATTLE</a>
+                   
+                   <a className="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">INITIATE BATTLE</a>
                    </div>
             </div>
          </div>
       </div>
    </div>
 </div>
+
  </div>
 
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import Battlefield from '../Sections/WarContentBox/Battlefield';
 import CreateBattlefield from '../Sections/WarContentBox/CreateBattlefield';
+import CreatePopup from '../Sections/WarContentBox/CreatePopup';
+
 function WarzoneContent(){
  return <div>
 <section className="warzone_content">
@@ -22,6 +24,7 @@ function WarzoneContent(){
                        <h2>CREATE A NEW BATTLEFIELD</h2>
                        <p><i class="fal fa-info-circle"></i><em>Select any one option. Only one battlefield can be created at a time</em></p>
                   <CreateBattlefield/>
+                  <CreatePopup/>
                   </div>
                </div>
             </div>

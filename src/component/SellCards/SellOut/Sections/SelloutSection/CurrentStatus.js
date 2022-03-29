@@ -5,7 +5,7 @@ function CurrentStatus(){
          <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                    <div className="purchase_current_status">
+                    <div className="sell_current_status">
                         <ul>
                             <li><span>Time on sale</span><br></br>
                                 <strong>00:11:48</strong></li>

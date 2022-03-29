@@ -9,7 +9,7 @@ function Faq5 () {
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingThirtyEight">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThirtyEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseThirtyEight">
-      Q1: What are functional and physical attributes?Q1: How do I breed my cards?
+      Q1: How do I breed my cards?
       </button>
     </h2>
     <div id="panelsStayOpen-collapseThirtyEight" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThirtyEight">

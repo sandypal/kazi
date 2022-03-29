@@ -2,7 +2,16 @@ import React from 'react';
 import collect_cards from "../BetteBox/Images/collect_cards.png";
 function Winner(){
  return <div>
-<section id="winner" className="winner_section">
+
+
+                   <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div className="modal-dialog modal-dialog-centered modal-xl">
+    <div className="modal-content">
+    <div className="modal-header">
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><i className="far fa-times"></i></button>
+      </div>
+      <div className="modal-body">
+    <div className="winner_section">
          <div className="container">
             <div className="row">
                <div className="col-md-12">
@@ -41,7 +50,13 @@ function Winner(){
                    </div>
                    </div>
                    </div>
-                   </section>
+                   </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
  </div>
  }
  export default Winner;

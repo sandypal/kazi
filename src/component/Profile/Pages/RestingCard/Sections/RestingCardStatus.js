@@ -8,13 +8,15 @@ function RestingCardStatus(){
                     <div className="current_status">
                         <h2>CURRENT STATUS</h2>
                         <ul>
-                            <li><span>Breed list</span><br></br>
+                        <li><span>Breed list</span><br></br>
                                 <strong>Yes</strong></li>
                                 <li><span>Last Breeding time</span><br></br>
                                 <strong>06:42:36</strong></li>
                                 <li><span>Battle list</span><br></br>
                                 <strong>No</strong></li>
-                                <li><span>Resting</span><br></br>
+                                <li><span>Auction list</span><br></br>
+                                <strong>No</strong></li>
+                                <li><span>Marketplace</span><br></br>
                                 <strong>Yes</strong></li>
                                 <li><span>In War</span><br></br>
                                 <strong>No</strong></li>

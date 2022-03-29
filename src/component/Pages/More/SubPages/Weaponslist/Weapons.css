@@ -1,4 +1,4 @@
-.Page_weapon_section {
+/* .Page_weapon_section {
     background-image: url("../Weaponslist/Images/weaponry_banner.png");
 	background-position: center;
 	background-size: cover;
@@ -17,7 +17,7 @@
 	line-height: 92px;
 	text-align: center;
 	color: #FFFFFF;
-}
+} */
 
 .nav_menu ul {
 	padding: 0;
@@ -96,6 +96,7 @@
 .weapons_rank ul li {
     display: inline-block;
     width: 100%;
+    text-align: left;
 }
 .weapons_rank ul p {
     margin: 0;
@@ -200,12 +201,12 @@
 /* Handle on hover */
 
 @media (max-width: 767px) {
-	.Page_more_section{
+	/* .Page_more_section{
 		text-align: center;
 		padding: 80px 0;
 	}
 	.Page_more_section h1{
 		font-size: 43px;
 		line-height: 50px;
-	}
+	} */
 }

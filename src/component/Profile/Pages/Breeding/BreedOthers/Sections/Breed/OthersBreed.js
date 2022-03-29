@@ -25,7 +25,7 @@ function OthersBreed(){
                   </ul>
                </div>
                <div className="other_btn">
-                  <a className="btn" href="#">CHALLENGE CARD</a>
+                  <a className="btn" href="#">SELECT AS PARTNER</a>
                   
                </div>
             </div>
@@ -50,7 +50,7 @@ function OthersBreed(){
                   </ul>
                </div>
                <div className="other_btn">
-                  <a className="btn" href="#">CHALLENGE CARD</a>
+                  <a className="btn" href="#">SELECT AS PARTNER</a>
                   
                </div>
             </div>
@@ -75,7 +75,7 @@ function OthersBreed(){
                   </ul>
                </div>
                <div className="other_btn">
-                  <a className="btn" href="#">CHALLENGE CARD</a>
+                  <a className="btn" href="#">SELECT AS PARTNER</a>
                   
                </div>
             </div>
@@ -100,7 +100,7 @@ function OthersBreed(){
                   </ul>
                </div>
                <div className="other_btn">
-                  <a className="btn" href="#">CHALLENGE CARD</a>
+                  <a className="btn" href="#">SELECT AS PARTNER</a>
                   
                </div>
             </div>
@@ -125,7 +125,7 @@ function OthersBreed(){
                   </ul>
                </div>
                <div className="other_btn">
-                  <a className="btn" href="#">CHALLENGE CARD</a>
+                  <a className="btn" href="#">SELECT AS PARTNER</a>
                   
                </div>
             </div>
