@@ -8,7 +8,7 @@ import '../Header/Header.css';
 function Nav () {
 	return <div>
 		 <header className="header_section">           
-               <nav className="navbar navbar-expand-xl navbar-light ">
+               <nav className="navbar navbar-expand-xl navbar-light">
                   <div className="container-fluid">
                      <Link className="navbar-brand" to="/"><img src={LOGO}/></Link>
                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
