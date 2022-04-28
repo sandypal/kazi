@@ -17,7 +17,7 @@ function HumanityText () {
                      <p>When Blacknet strikes war,  humans barely get the time to realize the sheer gravity of the situation. Shrinking and getting scattered due to attacks by the Blacknet Army, Humanity loses all essential to life. Their chances of survival become scarce as cities get destroyed, money loses its value, firearms and machines become rare. Human civilization faces the risk of extinction.</p>
 
                      <p>Not able to gain the upper hand in the war, seven individuals jointly track down the doctor who had parented Blacknet initially. The retired doctor realizes the threat and decides to create Alice to fight alongside humans. Alice brings new hope to human civilization as they march together with humans to fight against Blacknet.</p>
-                     <a href="/humanity-card">SEE HUMANITY CARDS</a>
+                     <a href="/humanity-card" className='btn'>SEE HUMANITY CARDS</a>
                   </div>
                </div>
                 

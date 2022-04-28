@@ -392,6 +392,7 @@
 .create_battlefield .modal-header {
     border-bottom: none;
 }
+.card_box h5 {color: #fff;}
 .create_battlefield .modal-title span {
     color: #fff;
     font-size: 18px;

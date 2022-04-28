@@ -5,11 +5,8 @@ function Humanity(){
 <div className="row">
 <div className="col-md-12">
 <div className="war_card">
-        <div className="upload_img">
-                           <div class="image-upload"><label for="file-input"><i class="far fa-plus"></i><br></br>
-                              Drag and drop card <br></br>to enter Battle</label><input id="file-input" type="file"/>
-                           </div>
-                        </div>
+        
+        <img src={blacknet}/>
         <h4>EMPTY</h4>
         <h5>---</h5>
         <div className="war_list">
@@ -26,6 +23,10 @@ function Humanity(){
             <li><span>Feature 9:</span> ---</li>
             </ul>
             </div>
+            <div className="bettle_btn">
+              <a className="btn" href="#">SELECT</a>
+              
+              </div>
         </div>
     <div className="war_card">
         <img src={blacknet}/>
@@ -45,6 +46,10 @@ function Humanity(){
             <li><span>Feature 9:</span> 101</li>
             </ul>
             </div>
+            <div className="bettle_btn">
+              <a className="btn" href="#">SELECT</a>
+              
+              </div>
         </div>
 
         

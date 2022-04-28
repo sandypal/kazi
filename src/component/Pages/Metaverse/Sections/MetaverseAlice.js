@@ -10,8 +10,8 @@ function MetaverseAlice () {
                <h3>ALICE</h3>
                <p>At the onset of a sudden war declared by Blacknet, humanity faces the threat of a powerful AI opponent. To fight them off, Alice, another AI being, is created. Alice is programmed to act as allies holding information and tools to decode and nullify Blacknet's objectives. Together with Alice, humanity can defeat Blacknet and be victorious. But Alice has the freedom to choose either side.</p>
                <ul>
-                  <li><a href="/alice-card">SEE ALICE CARDS</a></li>
-                  <li><a href="/alice">READ MORE</a></li>
+                  <li><a href="/alice-card" className='btn'>SEE ALICE CARDS</a></li>
+                  <li><a href="/alice" className='btn'>READ MORE</a></li>
                </ul>
             </div>
          </div>

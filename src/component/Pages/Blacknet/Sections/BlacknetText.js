@@ -23,7 +23,7 @@ function BlacknetText () {
 
                      <p>Blacknet soon evolves and gains active consciousness. She thinks independently and bears a diverse sense with active curiosity. Witnessing the atrocities and negative impacts caused by humans, she starts firmly believing that humans will soon cause the end of the world. With only one option left to consider, Blacknet takes the responsibility in her own hands to eradicate humanity. She morphs herself into a humanoid, creates an army of myriad AI beings and declares war on humans.</p>
 
-                     <a href="/blacknet-card">SEE BLACKNET CARDS</a>
+                     <a href="/blacknet-card" className='btn'>SEE BLACKNET CARDS</a>
                   </div>
                </div>
                 

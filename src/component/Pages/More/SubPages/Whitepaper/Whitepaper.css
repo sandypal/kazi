@@ -114,7 +114,7 @@
     display: grid;
     grid-template-columns: 6fr 6fr;
 }
-
+.whitepaper_tab ul.nav-tabs button {width: 100%;}
 .whitepaper_rank ul p span {
     font-style: normal;
     font-weight: 600;

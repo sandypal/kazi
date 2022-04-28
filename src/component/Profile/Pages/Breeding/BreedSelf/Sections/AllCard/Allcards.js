@@ -27,7 +27,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>
@@ -52,7 +52,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>
@@ -77,7 +77,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>
@@ -102,7 +102,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>
@@ -127,7 +127,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>
@@ -152,7 +152,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div><div className="col-md-6">
@@ -176,7 +176,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>
@@ -201,7 +201,7 @@ function Allcards () {
          </div>
          <div className="bettle_btn">
               <a className="btn" href="#">SELECT</a>
-              <a className="btn" href="#">REST</a>
+              
               </div>
          </div>
       </div>

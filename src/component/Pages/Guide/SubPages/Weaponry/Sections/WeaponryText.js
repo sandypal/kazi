@@ -46,7 +46,7 @@ function WeaponryText () {
        <div className="custom_tab_text" id="weaponryscale">
          <h3>Weaponry scale</h3>
          <p>For a detailed list of weapon names and their values go to the ‘Weapons’ list’ section under the ‘More’ page.</p>
-         <a className="btn" href="#">SEE WEAPONS’ LIST</a>
+         <a className="btn" href="/weapons">SEE WEAPONS’ LIST</a>
        </div>
        </div>
        <div className="col-md-6"><img src={metaverse}/></div>

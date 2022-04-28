@@ -103,6 +103,12 @@
 
 
 
+.buy_button a {display: block;width: 31%;margin:  auto;margin-bottom: 21px;}
+
+.buy_button {padding-top: 35px;}
+
+
+
 
 @media (max-width: 767px) {
 	/* .Page_more_section,

@@ -6,7 +6,7 @@ function BreedSelfBanner(){
             <div className="row">
                <div className="col-md-12">
                   <div className="breeding_text">
-                     <h1>BREEDING LAB</h1>
+                     <h1>Breeding Lab</h1>
                   </div>
                </div>
             </div>

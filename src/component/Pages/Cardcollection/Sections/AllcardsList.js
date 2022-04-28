@@ -9,23 +9,23 @@ function AllcardsList () {
             <div className="nav_menu">
             <ul>
                   <li className="nav-item">
-                     <Link className="nav-link active" to="/cardcollection">
+                     <Link className="nav-link active btn" to="/cardcollection">
                      ALL CARDS</Link>
                   </li>
                   <li className="nav-item">
-                     <Link className="nav-link" to="/blacknet-card">
+                     <Link className="nav-link btn" to="/blacknet-card">
                      BLACKNET</Link>
                   </li>
                   <li className="nav-item">
-                     <Link className="nav-link" to="/alice-card">
+                     <Link className="nav-link btn" to="/alice-card">
                      ALICE</Link>
                   </li>
                   <li className="nav-item">
-                     <Link className="nav-link" to="/humanity-card">
+                     <Link className="nav-link btn" to="/humanity-card">
                      HUMANITY</Link>
                   </li>
                   <li className="nav-item">
-                     <Link className="nav-link" to="/genesis-card">
+                     <Link className="nav-link btn" to="/genesis-card">
                      GENESIS</Link>
                   </li>
                   </ul>

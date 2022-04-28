@@ -10,7 +10,7 @@ function ConnectWallet () {
             <div className="wallet_text text-center">
                <h1>Connect your wallet</h1>
                <p>By connecting your wallet, you agree to our Terms of Use and <br></br>our Privacy Policy.</p>
-               <a href="#" className="wallet_btn">CONNECT WALLET</a>
+               <a href="#" className="wallet_btn btn">CONNECT WALLET</a>
             </div>
          </div>
       </div>

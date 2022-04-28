@@ -100,11 +100,13 @@
     color: #fff;
     font-size: 18px;
     line-height: 30px;
+    padding-top: 25px;
 }
 
 .enlist_card p span {
     font-size: 28px;
 }
+.card_img {padding-top: 28px;}
 
 
 .enlist_card .form-floating textarea {

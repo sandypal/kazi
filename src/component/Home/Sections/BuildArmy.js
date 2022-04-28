@@ -32,7 +32,7 @@ export default function BuildArmy() {
                            <p>Embark on the EXTREMIS journey by building your army of powerful cards. Purchase cards from the EXTREMIS marketplace by adding more soldiers to your army. Breed your cards strategically to acquire new generations of better and more unique cards. The bigger your army, the better your chance at fighting off battles and the war.</p>
                            <div className="build_army">
                   <ul>
-                     <li><a href="#">LEARN MORE</a></li>
+                     <li><a href="#" className='btn'>LEARN MORE</a></li>
                      <li><a href="/cardcollection">SEE CARDS</a></li>
                   </ul>
                </div>
@@ -47,7 +47,7 @@ export default function BuildArmy() {
                            <p>Hone your skills to plan the winning strategies. Buy and breed more cards, to choose the most advantageous cards over your opponents' team. Use your cards in the battles strategically to earn maximum wins and rank upgrades.</p>
                            <div className="build_army">
                   <ul>
-                     <li><a href="#">LEARN MORE</a></li>
+                     <li><a href="#" className='btn'>LEARN MORE</a></li>
                   </ul>
                </div>
                         </div>
@@ -61,7 +61,7 @@ export default function BuildArmy() {
                            <p>Earn money by breeding and selling cards on the EXTREMIS Marketplace.  You can also put up your power cards up for breeding and in turn get the breed fee everytime another player breeds with your card.</p>
                            <div className="build_army">
                   <ul>
-                     <li><a href="#">LEARN MORE</a></li>
+                     <li><a href="#" className='btn'>LEARN MORE</a></li>
                   </ul>
                </div>
                         </div>

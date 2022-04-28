@@ -12,7 +12,7 @@ function ConfirmationMsgText(){
    </div>
    </div>
 </div>
-   <div className="row align-items-center ">
+   <div className="row  ">
       
    <div className="col-md-6">
      <div className="card_img">
@@ -22,8 +22,8 @@ function ConfirmationMsgText(){
 <div className="col-md-6">
 <div className="enlist_card">
               <h3>Congratulations!</h3>
-              <p>Your card has<br></br>
-              <span>Joined the war</span>
+              <p>You have successfully made a<br></br>
+              <span>New card</span>
               </p>
 
             

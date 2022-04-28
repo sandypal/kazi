@@ -22,6 +22,10 @@ function Blacknet(){
             <li><span>Feature 9:</span> 101</li>
             </ul>
             </div>
+            <div className="bettle_btn">
+              <a className="btn" href="#">SELECT</a>
+              
+              </div>
         </div>
 
         <div className="war_card">
@@ -46,6 +50,10 @@ function Blacknet(){
             <li><span>Feature 9:</span> ---</li>
             </ul>
             </div>
+            <div className="bettle_btn">
+              <a className="btn" href="#">SELECT</a>
+              
+              </div>
         </div>
     </div>
 </div>

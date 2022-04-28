@@ -65,7 +65,7 @@ function Nav () {
                                  <hr></hr>
                                  <li><Link className="dropdown-item" to="/breeding">Breeding Lab</Link></li>
                                  <li><Link className="dropdown-item" to="/battle-list">Battle list</Link></li>
-                                 <li><Link className="dropdown-item" to="/war-zone">War zone</Link></li>
+                                 <li><Link className="dropdown-item" to="/individual-card">War zone</Link></li>
                                  <li><Link className="dropdown-item" to="/promote">Promote cards</Link></li>
                                  <li><Link className="dropdown-item" to="/mutate">Mutate cards</Link></li>
                                  <li><Link className="dropdown-item" to="/rename">Rename cards</Link></li>
