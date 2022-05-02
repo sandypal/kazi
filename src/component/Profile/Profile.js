@@ -9,7 +9,5 @@ function Profile (){
 <UserProfile/>
 <UserProfileTab/>
  </div>
-
-
 }
 export default Profile;

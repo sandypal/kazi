@@ -6,7 +6,7 @@ function Metaversebanner () {
             <div className="row">
                <div className="col-md-12">
                   <div className="page_title">
-                     <h1>Metaverse</h1>
+                     
                   </div>
                </div>
             </div>

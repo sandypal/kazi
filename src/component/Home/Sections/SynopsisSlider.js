@@ -27,7 +27,21 @@ export default function SynopsisSlider() {
                         <div className="col-md-6"><img src={the_story}/></div>
                         <div className="col-md-6">
                            <h2>THE STORY</h2>
-                           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                           <p>Powered by their respective 
+                           goals and ideologies, the world 
+                           of EXTREMIS is a chaotic 
+                           ensemble of Human and 
+                           artificial sentinel beings. Too 
+                           often, these factions clash, 
+                           intending to obliterate each 
+                           other and establish their vision 
+                           of a perfect world. The ultimate 
+                           result is a worldwide feud 
+                           between man and the newly 
+                           created sentinel beings. The 
+                           story of EXTREMIS revolves 
+                           around the beginning of the 
+                           war and the war itself.</p>
                            <a className="play_byn btn" href="/story">READ MORE</a>
                         </div>
                      </div>

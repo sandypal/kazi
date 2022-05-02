@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import React, { Component } from 'react';
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router,Routes, Route, Link, useLocation } from 'react-router-dom';
 import About from './component/Pages/About/About';
 import Contact from './component/Pages/Contact/Contact';
 import Header from './component/Header/Header';
@@ -82,9 +82,9 @@ import SellOutConfirmation from './component/SellCards/SellOutConfirmation';
 import SellOutCongratulations from './component/SellCards/SellOutCongratulations';
 import Footer from './component/Footer/Footer';
 
-
-class App extends Component {
-  render() {
+const App =()=> {
+ 
+    const location=useLocation()
     return (
        <Router>
            <div className="App">
@@ -169,10 +169,12 @@ class App extends Component {
             <Route exact path='/sell-auction-confirmation' element={< SellOutConfirmation />}></Route>
             <Route exact path='/sell-auction-congratulations' element={< SellOutCongratulations />}></Route>
           </Routes>
-          <Footer/>
+          {location.pathname !== '/component/Pages/Cardcollection/CardCollection' && <Footer /> }
+          <Footer />
+       
        </Router>
    );
-  }
+  
 }
 
 export default App;

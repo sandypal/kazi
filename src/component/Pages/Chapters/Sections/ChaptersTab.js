@@ -16,7 +16,6 @@ function ChaptersTab () {
             <div className="row">
                <div className="col-md-10 offset-md-1">
                   <div className="tab_section">
-                  <h2>EXTREMIS: THE CHRONICLES</h2>
                   <div className="chapter_tab">
                   <ul className="nav nav-tabs" id="myTab" role="tablist">
   <li className="nav-item" role="presentation">
