@@ -50,6 +50,7 @@
 
 .whitepaper_text_section h2 {
     font-style: normal;
+    text-align: center;
     font-weight: bold;
     font-size: 48px;
     line-height: 50px;
@@ -206,3 +207,27 @@
         grid-template-columns: 5fr 5fr;
     }
     }
+
+    .whitepaper_text_section a{
+        border: 2px solid #EC0909;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 8px 30px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+    }
+    .board_section{
+        margin-top: 80px;
+        text-align: center;
+    }
+    .btn{
+      align-items: center;
+    }
+    .whitepaper_text_section{}

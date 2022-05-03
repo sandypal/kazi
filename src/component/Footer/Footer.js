@@ -2,10 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
 import LOGO from "../Footer/LOGO.png";
 import '../Footer/Footer.css';
+import CardCollection from '../Pages/Cardcollection/CardCollection';
 function Footer () {
-   
 	return <div>
-<footer>
+  
+   <footer>
    <div className="container">
       <div className="row align-items-center">
          <div className="col-md-4 col-xl-3">
@@ -71,6 +72,7 @@ function Footer () {
          </div>
          </div>
 </footer>
+
 </div>
 }
 export default Footer;
