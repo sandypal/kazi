@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route,Routes,Link, useLocation as location } from 'react-router-dom';
+import { BrowserRouter as Router, Route,Routes,Link} from 'react-router-dom';
 import About from './component/Pages/About/About';
 import Contact from './component/Pages/Contact/Contact';
 import Header from './component/Header/Header';
@@ -92,7 +92,6 @@ const App=()=> {
             <Header/>           
            </div>
            <Routes>
-
             <Route exact path='/' element={ <Home/>}></Route>
             <Route exact path='/story' element={< Story />}></Route>
             <Route exact path='/the-chronicles' element={< AllChapters />}></Route>
@@ -170,14 +169,8 @@ const App=()=> {
             <Route exact path='/sell-auction' element={< SellOut />}></Route>
             <Route exact path='/sell-auction-confirmation' element={< SellOutConfirmation />}></Route>
             <Route exact path='/sell-auction-congratulations' element={< SellOutCongratulations />}></Route>
-            {console.log(Location)}
             </Routes>
-
-    
           <Footer />
-        
-         
-       
        </Router>
    );
     

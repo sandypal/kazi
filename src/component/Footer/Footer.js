@@ -1,11 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import { useState } from 'react';
+import { BrowserRouter as Router,Routes, Route, Link,useLocation } from 'react-router-dom';
 import LOGO from "../Footer/LOGO.png";
 import '../Footer/Footer.css';
-import CardCollection from '../Pages/Cardcollection/CardCollection';
+
+
+
 function Footer () {
-	return <div>
+
+   const location = useLocation();
+   console.log('loca',location)
+   const pathString = location.pathname;
+   const exludePath =['/cardcollection','/alice-card','/blacknet-card','/humanity-card','/genesis-card','/breeding','/breed-self','/breed-others','/battle-list','/individual-card','/promote','/mutate','/rename','/marketplace' ];
   
+  let footer;
+
+  if(exludePath.includes(pathString)){
+   footer = '';
+  }else{
+   footer =<div>
    <footer>
    <div className="container">
       <div className="row align-items-center">
@@ -72,7 +85,11 @@ function Footer () {
          </div>
          </div>
 </footer>
-
-</div>
+</div>;
+  }
+	return <div>
+   
+   {footer}
+   </div>
 }
 export default Footer;
